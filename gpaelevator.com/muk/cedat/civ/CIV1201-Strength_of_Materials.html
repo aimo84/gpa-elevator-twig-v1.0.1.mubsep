@@ -1,0 +1,78 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+CIV1201-Strength of materials
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/CIV1201">{{ block('coursecode') }} {% endblock %}
+{% block coursecode %} CIV1201{% endblock %}
+{% block courseName %} Bachelor of Science In Civil Engineering {% endblock %}
+{% block courseunit %}{{ block('coursecode') }}:Strength of materials{% endblock %}
+{% block lectureNotice %}
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Strength_of_Materials/Lecture_notes/1 Introduction.pdf">{{ block('pdf_icon') }}Introduction</a></i></b></li> 
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Strength_of_Materials/Lecture_notes/2 Axial loading.pdf">{{ block('pdf_icon') }}Axial loading </a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Strength_of_Materials/Lecture_notes/3 Torsion.pdf">{{ block('pdf_icon') }}Torsion </a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Strength_of_Materials/Lecture_notes/4 Pure bending.pdf">{{ block('pdf_icon') }}Pure bending</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Strength_of_Materials/Lecture_notes/5 Beams.pdf">{{ block('pdf_icon') }}Beams</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Strength_of_Materials/Lecture_notes/6 Shearing stresses.pdf">{{ block('pdf_icon') }}Shearing stresses</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Strength_of_Materials/Lecture_notes/7 Stress transformations.pdf">{{ block('pdf_icon') }}Stress transformations</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Strength_of_Materials/Lecture_notes/8 Principal stresses.pdf">{{ block('pdf_icon') }}Principal stresses</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Strength_of_Materials/Lecture_notes/9 Beam deflection.pdf">{{ block('pdf_icon') }}Beam deflection</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Strength_of_Materials/Lecture_notes/10 Columns.pdf"> {{ block('pdf_icon') }}Columns</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Strength_of_Materials/Lecture_notes/11 Energy methods.pdf">{{ block('pdf_icon') }}Energy methods</a></i></b></li>
+{% endblock lectureNotice %}
+
+{% block hidden_lecture_notes %}
+Workedout Examples
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Strength_of_Materials/Lecture_notes/introduction.pdf">{{ block('pdf_icon') }}introduction</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Strength_of_Materials/Lecture_notes/Involving temperature.pdf"> {{ block('pdf_icon') }}Involving temperature</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Strength_of_Materials/Lecture_notes/Pure bending examples.pdf">{{ block('pdf_icon') }}Pure bending examples</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Strength_of_Materials/Lecture_notes/Stress and strain axial loading.pdf">{{ block('pdf_icon') }}Stress & strain axial loading</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Strength_of_Materials/Lecture_notes/Torsion examples.pdf">{{ block('pdf_icon') }}Torsion examples</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Strength_of_Materials/Lecture_notes/BEER JOHNSTON DEWOLF - Mechanics of Materials Solution manual, 3rd ed..pdf">{{ block('pdf_icon') }}Mechanics of Materials Solution manual, 3rd ed.</a></i></b></li>
+{% endblock %}
+
+{% block ref_textbk_1_link %}
+<a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Strength_of_Materials/Reference_books/FERDINAND BEER - Mechanics of materials , 6th Edition.pdf">
+{% endblock %}
+{% block ref_textbk_1_title %}
+FERDINAND BEER-Mechanics of materials 6th Edition 
+{% endblock %}
+{% block ref_textbk_2_link %}
+<a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Strength_of_Materials/Reference_books/JAMES M. GERE, BARRY J. GOODNO - Mechanics of Materials, 3rd ed..pdf">
+{% endblock %}
+{% block ref_textbk_2_title %}
+JAMES M. GERE, BARRY J.GOODNO-Mechanics of Materials,3rd ed
+{% endblock %}
+{% block ref_textbk_3_link %}
+<a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Strength_of_Materials/Reference_books/Solution Manual - Mechanics of Materials 7th Edition, Gere, Goodno.pdf">
+{% endblock %}
+{% block ref_textbk_3_title %}
+Solution Manual-Mechanics of Materials 7th Edition, Gere, Goodno
+{% endblock %}
+{% block ref_textbk_4 %}{% endblock %}
+{% block ref_textbk_5 %}{% endblock %}
+{% block ref_textbk_6 %}{% endblock %}
+
+{% block exam_list_1 %}
+<li class="pastpaper"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Strength_of_Materials/Past_papers/CIV1201 - Assignment 1.pdf">CIV1201-Assignment 1</a></i></b></li>
+<li class="pastpaper"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Strength_of_Materials/Past_papers/CIV1201 - Assignment 2.pdf">CIV1201-Assignment 2</a></i></b></li>
+<li class="pastpaper"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Strength_of_Materials/Past_papers/CIV1201 Past papers.pdf">CIV1201-Compiled Past Papers</a></i></b></li>
+<li class="pastpaper"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Strength_of_Materials/Past_papers/#.pdf">CIV1201-Continous Assessment Test II</a></i></b></li>
+<li class="pastpaper"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Strength_of_Materials/Past_papers/#.pdf">CIV1201-Final Semester Exam</a></i></b></li>
+{% endblock exam_list_1 %}
+
+{% block youtube_links %}
+<li> <a href="#" >Torsion</a></li>
+<li><a href="#">Axial loading</a></li>
+<li><a href="#">Shearing stresses </a></li>
+<li><a href="#">Beams</a></li>
+<li><a href="#">Stress transformations</a></li>
+{% endblock youtube_links %}
+
+{% block papers_before_14 %}
+<li class="pastpaper"><b><i>{% block paper_1_2013_link %}<a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Strength_of_Materials/Past_papers/Strength of Materials Past Papers.pdf">{% endblock %}Examination Questions</a></i></b></li>
+{% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/CIV1202" id="other_course_unit-linkbutton" class="link-item btn--pink">CIV1202-Fluid Mechanics{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/CIV1203" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">CIV1203-Electrical Engineering {% endblock courseunit_link_2 %}

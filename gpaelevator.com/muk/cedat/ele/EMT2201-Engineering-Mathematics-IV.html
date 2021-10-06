@@ -1,0 +1,17 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+EMT2201-Engineering Mathematics IV
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/EMT2201">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %} {{ block('coursecode') }}:Engineering Mathematics IV{% endblock %}
+{% block coursecode %}EMT2201{% endblock %}
+{% block courseName %} Bachelor Of Science In Electrical Engineering  {% endblock %}
+
+{% block ref_textbks %} {% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/ELE2211" id="other_course_unit-linkbutton" class="link-item btn--pink">ELE2211-Electromagnetic Fields {% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/ELE2212" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">ELE2212-Electrical Energy Systems {% endblock courseunit_link_2 %}
+        
+    

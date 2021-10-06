@@ -1,0 +1,59 @@
+
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+
+{% block col_title %}
+EMT1101-Engineering Math I 
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/EMT1101">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %}{{ block('coursecode') }}:Engineering Math I{% endblock %}
+
+{% block coursecode %}EMT1101{% endblock %}
+{% block courseName %} Bachelor of Science In Computer, Electrical, Biomedical, Civil & Telecommunication engineering{% endblock %}
+
+{% block lectureNotice %} 
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/EMT1201-mtc/Lecture_notes/EMT1201 course content.pdf">{{ block('pdf_icon') }}EMT1201 course content</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/EMT1201-mtc/Lecture_notes/Complex Algebra.pdf">{{ block('pdf_icon') }}Complex Numbers</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/EMT1201-mtc/Lecture_notes/Application of complex number in engineering.pdf">{{ block('pdf_icon') }}Application of complex number in engineering</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/EMT1201-mtc/Lecture_notes/SolutionEigen.pdf">{{ block('pdf_icon') }}Eigen vectors and Eigen values</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/EMT1201-mtc/Lecture_notes/Matrices-1.pdf">{{ block('pdf_icon') }}Matrices</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/EMT1201-mtc/Lecture_notes/Vector algebra.pdf">{{ block('pdf_icon') }}Vector Algebra</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/EMT1201-mtc/Lecture_notes/NUMERICAL%20ANALYSIS.pdf">{{ block('pdf_icon') }}Numerical Methods</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/EMT1201-mtc/Lecture_notes/RANK%20OF%20MATRIX.pdf">{{ block('pdf_icon') }}Rank of Matrix</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/EMT1201-mtc/Lecture_notes/jem_graddivcurl.pdf">{{ block('pdf_icon') }}Vector operators</a></i></b></li>
+{% endblock %}
+{% block extra_lecture_notes %}{% endblock %}
+{% block ref_textbks %}    
+<li class="lecture-notes"><b><i><a  href="http://localhost/pdf/muk/computer_eng/year1/sem2/EMT1201-mtc/Reference_books/[H_K_Dass]_Advanced_Engineering_Mathematics.pdf">{{ block('bk_icon') }}[H K Dass] Advanced Engineering Mathematics</a></i></b></li>
+<li class="lecture-notes"><b><i><a  href="http://localhost/pdf/muk/computer_eng/year1/sem2/EMT1201-mtc/Reference_books/Advanced engineering mathematics  Kreyzig.pdf">{{ block('bk_icon') }}Advanced engineering mathematics by Kreyzig </a></i></b></li>
+<li class="lecture-notes"><b><i><a  href="http://localhost/pdf/muk/computer_eng/year1/sem2/EMT1201-mtc/Reference_books/Advanced Engineering Mathematics 4th Ed by K. A. Stroud.pdf">{{ block('bk_icon') }}Advanced Engineering Mathematics 4th Ed by K. A. Stroud</a></i></b></li>
+<li class="lecture-notes"><b><i><a  href="http://localhost/pdf/muk/computer_eng/year1/sem2/EMT1201-mtc/Reference_books/ENG. MATHS II.pdf">{{ block('bk_icon') }}ENG. MATHS II</a></i></b></li>
+{% endblock %}
+
+
+{% block exam_list_6 %}
+<li class="pastpaper"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/EMT1201-mtc/Past_papers/attachment.pdf">CMP1203-Continous Assessment Test I</a></i></b></li>
+<li class="pastpaper"><b><i><a href="http://localhost/erormassage.html">CMP1203-Continous Assessment Test II</a></i></b></li>
+<li class="pastpaper"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/EMT1201-mtc/Past_papers/EMT 1201 exam 2014-2015.pdf">CMP1203-Final Semester Exam</a></i></b></li>
+{% endblock exam_list_6 %}
+
+{% block exam_list_5 %}
+<li class="pastpaper"><b><i><a href="http://localhost/erormassage.html">CMP1203-Continous Assessment Test I</a></i></b></li>
+<li class="pastpaper"><b><i><a href="http://localhost/erormassage.html">CMP1203-Continous Assessment Test II</a></i></b></li>
+<li class="pastpaper"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/EMT1201-mtc/Past_papers/EMT 1201 exam 2015-2016.pdf">CMP1203-Final Semester Exam</a></i></b></li>
+{% endblock exam_list_5 %}
+
+{% block youtube_links %}
+<li> <a href="#">Complex Numbers</a></li>
+<li><a href="#">Vector Algebra</a></li>
+<li><a href="#">Linear transformations </a></li>
+<li><a href="#">Matrix</a></li>
+<li><a href="#">Vector analysis</a></li>
+<li><a href="#">Real analysis</a></li>
+<li><a href="#">Numerical analysis</a></li>
+{% endblock youtube_links %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/CMP1101" id="other_course_unit-linkbutton" class="link-item btn--pink">CMP1101-Electronics I {% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/CMP1102" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">CMP1102-Computer Engineering Ethics{% endblock courseunit_link_2 %}
+

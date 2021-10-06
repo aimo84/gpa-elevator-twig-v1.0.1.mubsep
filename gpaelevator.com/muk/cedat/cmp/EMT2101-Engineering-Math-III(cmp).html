@@ -1,0 +1,68 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+
+{% block col_title %}
+EMT1201-Engineering Math III 
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/EMT1201">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %}EMT2101:Engineering Math III{% endblock %}
+{% block coursecode %}EMT2101{% endblock %}
+{% block courseName %} Bachelor of Science In Computer, Electrical, Biomedical & Telecommunication engineering{% endblock %}
+
+{% block lectureNotice %} 
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/EMT2101/Lecture_notes/EMT-2101.pdf">{{ block('pdf_icon') }}EMT2101 course content</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/EMT2101/Lecture_notes/FourierSeries.pdf">{{ block('pdf_icon') }}Fourier Series</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/EMT2101/Lecture_notes/1.1 Frequency Domain Representations.pdf">{{ block('pdf_icon') }}Frequency Domain Representations</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/EMT2101/Lecture_notes/1.2 Fourier Analysis.pdf">{{ block('pdf_icon') }}Fourier Analysis</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/EMT2101/Lecture_notes/Laplace notes.pdf">{{ block('pdf_icon') }}Laplace notes</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/EMT2101/Lecture_notes/1.3 Fourier Integral.pdf">{{ block('pdf_icon') }}Fourier Integral</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/EMT2101/Lecture_notes/2.1 Laplace Transforms.pdf">{{ block('pdf_icon') }}Laplace Transforms</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/EMT2101/Lecture_notes/Solved Problems (2).pdf">{{ block('pdf_icon') }}Integral Transforms-Solved Problems </a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/EMT2101/Lecture_notes/2.2 Inverse Laplace Transforms..pdf">{{ block('pdf_icon') }}Inverse Laplace Transforms</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/EMT2101/Lecture_notes/4.0 Initial and Boundary Value Problems..pdf">{{ block('pdf_icon') }}Initial and Boundary Value Problems</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/EMT2101/Lecture_notes/Bessel&Legendre.pdf">{{ block('pdf_icon') }}Bessel & Legendre</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/EMT2101/Lecture_notes/bessels-3.pdf">{{ block('pdf_icon') }}bessels</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/EMT2101/Lecture_notes/Legendre, Bessel, Gamma and Beta.pdf">{{ block('pdf_icon') }}Legendre, Bessel, Gamma and Beta</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/EMT2101/Lecture_notes/Ordinary Differential Equations.pdf">{{ block('pdf_icon') }}Ordinary Differential Equations</a></i></b></li>
+{% endblock %}
+{% block extra_lecture_notes %}{% endblock %}
+{% block ref_textbks %}    
+<li class="lecture-notes"><b><i><a  href="http://localhost/pdf/muk/computer_eng/year1/sem2/EMT1201-mtc/Reference_books/[H_K_Dass]_Advanced_Engineering_Mathematics.pdf">{{ block('bk_icon') }}[H K Dass] Advanced Engineering Mathematics</a></i></b></li>
+<li class="lecture-notes"><b><i><a  href="http://localhost/pdf/muk/computer_eng/year1/sem2/EMT1201-mtc/Reference_books/Advanced engineering mathematics  Kreyzig.pdf">{{ block('bk_icon') }}Advanced engineering mathematics by Kreyzig </a></i></b></li>
+<li class="lecture-notes"><b><i><a  href="http://localhost/pdf/muk/computer_eng/year1/sem2/EMT1201-mtc/Reference_books/Advanced Engineering Mathematics 4th Ed by K. A. Stroud.pdf">{{ block('bk_icon') }}Advanced Engineering Mathematics 4th Ed by K. A. Stroud</a></i></b></li>
+{% endblock %}
+
+{% block courseunit_link_1 %}<a href="CMP1203" id="other_course_unit-linkbutton" class="link-item btn--pink">CMP1203-Object Oriented Programming {% endblock courseunit_link_1 %} 
+{% block courseunit_link_2 %}<a href="TEC2101" id="other_course_unit-linkbutton" class="link-item btn--lightgreen">TEC2101-Sociology For Technology {% endblock courseunit_link_2 %} 
+
+{% block exam_list_1 %}
+<li class="pastpaper"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/EMT2101/Past_papers/Quiz eng math 3.pdf">Quiz eng math 3</a></i></b></li>
+<li class="pastpaper"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/EMT2101/Past_papers/Quiz On Gamma and Beta Functions.pdf">Quiz On Gamma and Beta Functions</a></i></b></li>
+<li class="pastpaper"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/EMT2101/Past_papers/Quiz eng math 3.pdf">EMT2101-Continous Assessment Test I</a></i></b></li>
+<li class="pastpaper"><b><i><a href="http://localhost/erormassage.html">EMT2101-Continous Assessment Test II</a></i></b></li>
+<li class="pastpaper"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/EMT1201-mtc/Past_papers/EMT 1201 exam 2014-2015.pdf">EMT2101-Final Semester Exam</a></i></b></li>
+{% endblock exam_list_1 %}
+
+{% block exam_list_5 %}
+<li class="pastpaper"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/EMT2101/Past_papers/Quiz eng math 3.pdf">EMT2101-Continous Assessment Test I</a></i></b></li>
+<li class="pastpaper"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/EMT2101/Past_papers/Quiz On Gamma and Beta Functions.pdf">EMT2101-Continous Assessment Test II</a></i></b></li>
+<li class="pastpaper"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/EMT1201-mtc/Past_papers/EMT 1201 exam 2015-2016.pdf">EMT2101-Final Semester Exam</a></i></b></li>
+{% endblock exam_list_5 %}
+
+{% block exam_list_6 %}
+<li class="pastpaper"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/EMT2101/Past_papers/EMT2101Exam Model Solutions 2007-2008.pdf">EMT2101-2007/2018</a></i></b></li>
+<li class="pastpaper"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/EMT2101/Past_papers/EMT2101Exam Model Solutions 2007-2008.pdf">EMT2101-Continous Assessment Test I</a></i></b></li>
+<li class="pastpaper"><b><i><a href="http://localhost/erormassage.html">EMT2101-Continous Assessment Test II</a></i></b></li>
+<li class="pastpaper"><b><i><a href="http://localhost/erormassage.html">EMT2101-Final Semester Exam</a></i></b></li>
+{% endblock %}
+
+{% block youtube_links %}
+<li> <a href="#">Complex Numbers</a></li>
+<li><a href="#">Vector Algebra</a></li>
+<li><a href="#">Linear transformations </a></li>
+<li><a href="#">Matrix</a></li>
+<li><a href="#">Vector analysis</a></li>
+<li><a href="#">Real analysis</a></li>
+<li><a href="#">Numerical analysis</a></li>
+{% endblock youtube_links %}

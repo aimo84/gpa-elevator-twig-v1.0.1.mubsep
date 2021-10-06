@@ -1,0 +1,58 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+CIV4204-Environmental Quality Management
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/CIV4204">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %} {{ block('coursecode') }}:Environmental Quality Management{% endblock %}
+{% block coursecode %}CIV4204{% endblock %}
+{% block courseName %} Bachelor Of Science In Civil Engineering  {% endblock %}
+
+
+{% block lectureNotice %}
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Environmental_Quality_Mgt/Lecture_notes/CIV4204_OutlineHandout.pdf">{{ block('pdf_icon') }}Course Outline</a></i></b></li> 
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Environmental_Quality_Mgt/Lecture_notes/CIV4204_EnvironmentalQualityManagement_Ch1.pdf">{{ block('pdf_icon') }}Introduction and definitions</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Environmental_Quality_Mgt/Lecture_notes/CIV4204_EnvironmentalQualityManagement_Ch2.pdf">{{ block('pdf_icon') }}Environmental policies and guidelines (water and effluent discharge standards)</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Environmental_Quality_Mgt/Lecture_notes/CIV4204_EnvironmentalQualityManagement_Ch3.pdf">{{ block('pdf_icon') }}Environmental impact analysis</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Environmental_Quality_Mgt/Lecture_notes/CIV4204_EnvironmentalQualityManagement_Ch4.pdf">{{ block('pdf_icon') }}Environmental monitoring of construction works</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Environmental_Quality_Mgt/Lecture_notes/CIV4204_EnvironmentalQualityManagement_Ch5.pdf">{{ block('pdf_icon') }}Water pollution control</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Environmental_Quality_Mgt/Lecture_notes/CIV4204_EnvironmentalQualityManagement_Ch6.pdf">{{ block('pdf_icon') }}Waste load allocations</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Environmental_Quality_Mgt/Lecture_notes/CIV4204_EnvironmentalQualityManagement_Ch7.pdf">{{ block('pdf_icon') }}Air pollution control</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Environmental_Quality_Mgt/Lecture_notes/CIV4204_EnvironmentalQualityManagement_Ch8.pdf">{{ block('pdf_icon') }}Noise pollution</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Environmental_Quality_Mgt/Lecture_notes/CIV4204_EnvironmentalQualityManagement_Ch9.pdf">{{ block('pdf_icon') }}Wetlands protection</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Environmental_Quality_Mgt/Lecture_notes/CIV4204_EnvironmentalQualityManagement_Ch10.pdf">{{ block('pdf_icon') }}Control of land/soil pollution</a></i></b></li>
+{% endblock lectureNotice %}
+
+{% block extra_lecture_notes %}
+{% endblock %}
+
+{% block ref_textbk_1_link %}
+<a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Environmental_Quality_Mgt/Reference_books/Aslam Kassimali-Structural Analysis 4th Edition.pdf">
+{% endblock %}
+{% block ref_textbk_1_title %}
+Aslam Kassimali-Structural Analysis 4th Edition
+{% endblock %}
+{% block ref_textbk_2_link %}
+<a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Environmental_Quality_Mgt/Reference_books/R. C. Hibbeler-Structural Analysis 8th Edition.pdf">
+{% endblock %}
+{% block ref_textbk_2_title %}
+R. C. Hibbeler-Structural Analysis 8th Edition
+{% endblock %}
+
+{% block ref_textbk_3 %}{% endblock %}
+{% block ref_textbk_4 %}{% endblock %}
+{% block ref_textbk_5 %}{% endblock %}
+{% block ref_textbk_6 %}{% endblock %}
+
+
+{% block youtube_links %}
+<li> <a href="#" >Concrete mixture</a></li>
+<li><a href="#">Water as an Element Of concrete</a></li>
+<li><a href="#">Shearing stresses </a></li>
+<li><a href="#">Beams</a></li>
+<li><a href="#">Stress transformations</a></li>
+{% endblock youtube_links %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/CIV4206" id="other_course_unit-linkbutton" class="link-item btn--pink">CIV4206-Introductory Dynamics Of Structures{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/CIV4209" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">CIV4209-Human Resources Mgt & Entrepreneurship{% endblock courseunit_link_2 %}

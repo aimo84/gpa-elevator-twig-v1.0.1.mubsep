@@ -1,0 +1,17 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+MEC1101-Engineering Drawing 
+{% endblock %}
+
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/MEC1101">{{ block('coursecode') }} {% endblock %}
+
+{% block courseunit %}{{ block('coursecode') }}:Engineering Drawing {% endblock %}
+{% block coursecode %}MEC1101{% endblock %}
+{% block courseName %} Bachelor Of Science In Mechanical Engineering  {% endblock %}
+
+{% block ref_textbks %} {% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/MEC1102" id="other_course_unit-linkbutton" class="link-item btn--pink">MEC1102-Engineering Mechanics{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/MEC1103" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">MEC1103-Electrical Eng. for Mechanical Engineers {% endblock courseunit_link_2 %}

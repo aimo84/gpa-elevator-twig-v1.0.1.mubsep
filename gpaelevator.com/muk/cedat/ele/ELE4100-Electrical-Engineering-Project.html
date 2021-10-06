@@ -1,0 +1,17 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+ELE4100-Electrical Engineering Project
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/ELE4100">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %} {{ block('coursecode') }}:Electrical Engineering Project{% endblock %}
+{% block coursecode %}ELE4100{% endblock %}
+{% block courseName %} Bachelor Of Science In Electrical Engineering  {% endblock %}
+
+{% block ref_textbks %} {% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/CMP4103" id="other_course_unit-linkbutton" class="link-item btn--pink">CMP4103-Computer Systems And Network Security {% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/ELE4101" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">ELE4101-Communication Engineering II {% endblock courseunit_link_2 %}
+        
+    

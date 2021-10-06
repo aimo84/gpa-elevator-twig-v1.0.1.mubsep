@@ -1,0 +1,15 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+CIV3203-Design of Structures II
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/CIV3203">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %} {{ block('coursecode') }}:Design of Structures II (steel){% endblock %}
+{% block coursecode %}CIV3203{% endblock %}
+{% block courseName %} Bachelor Of Science In Civil Engineering  {% endblock %}
+
+{% block ref_textbks %} {% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/CIV3204" id="other_course_unit-linkbutton" class="link-item btn--pink">CIV3204-Water Resources Engineering I{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/CIV3205" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">CIV3205-Public Health Engineering I{% endblock courseunit_link_2 %}

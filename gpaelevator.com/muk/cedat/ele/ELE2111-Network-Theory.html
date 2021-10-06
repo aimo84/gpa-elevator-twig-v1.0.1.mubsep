@@ -1,0 +1,18 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+ELE2111-Network Theory
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/ELE2111">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %} {{ block('coursecode') }}:Network Theory{% endblock %}
+
+{% block coursecode %}ELE2111{% endblock %}
+{% block courseName %} Bachelor Of Science In Electrical Engineering  {% endblock %}
+
+
+{% block ref_textbks %} {% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/EMT2101" id="other_course_unit-linkbutton" class="link-item btn--pink">EMT2101-Engineering Mathematics III{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/ELE2112" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">ELE2112- Electro-magnetics {% endblock courseunit_link_2 %}
+    

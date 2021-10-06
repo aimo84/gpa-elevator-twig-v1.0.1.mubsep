@@ -1,0 +1,16 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+CMP4102-Instrumention and Control Engineering
+{% endblock %}
+
+{% block courseunit %} {{ block('coursecode') }}:Instrumention and Control Engineering{% endblock %}
+{% block coursecode %}CMP4102{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/CMP4102">{{ block('coursecode') }} {% endblock %}
+{% block courseName %} Bachelor of Science In Computer, Electrical & Telecommunication Engineering{% endblock %}
+{% block ref_textbks %} {% endblock %}
+
+{% block courseunit_link_1 %}<a href="CMP4103" id="other_course_unit-linkbutton" class="link-item btn--pink">CMP4103-Computer Systems and Network Security{% endblock courseunit_link_1 %} 
+{% block courseunit_link_2 %}<a href="CMP4104" id="other_course_unit-linkbutton" class="link-item btn--lightgreen">CMP4104-Digital Image and Video Processing{% endblock %} 
+

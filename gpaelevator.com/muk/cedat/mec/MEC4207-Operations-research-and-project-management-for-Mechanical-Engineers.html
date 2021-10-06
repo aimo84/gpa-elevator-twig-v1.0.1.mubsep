@@ -1,0 +1,18 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+MEC4207-Operations research & project management for Mechanical Engineers
+{% endblock %}
+
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/MEC4207">{{ block('coursecode') }} {% endblock %}
+
+{% block courseunit %}{{ block('coursecode') }}:Operations research & project management for Mechanical Engineers{% endblock %}
+{% block coursecode %}MEC4207{% endblock %}
+{% block courseName %} Bachelor Of Science In Mechanical Engineering  {% endblock %}
+
+{% block ref_textbks %} {% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/MEC4208" id="other_course_unit-linkbutton" class="link-item btn--pink">MEC4208-Computer Aided Engineering for mechanical Engineers{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/MEC4209" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">MEC4209-Automotive Engineering {% endblock courseunit_link_2 %}
+          

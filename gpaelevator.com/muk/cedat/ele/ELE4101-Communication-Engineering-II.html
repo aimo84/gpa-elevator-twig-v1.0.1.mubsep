@@ -1,0 +1,17 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+ELE4101-Communication Engineering II
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/ELE4101">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %} {{ block('coursecode') }}:Communication Engineering II{% endblock %}
+{% block coursecode %}ELE4101{% endblock %}
+{% block courseName %} Bachelor Of Science In Electrical Engineering  {% endblock %}
+
+{% block ref_textbks %} {% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/ELE4105" id="other_course_unit-linkbutton" class="link-item btn--pink">ELE4105-Power Systems Engineering I {% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/CMP4102" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">CMP4102-Instrumentation and Control Engineering{% endblock courseunit_link_2 %}
+        
+    

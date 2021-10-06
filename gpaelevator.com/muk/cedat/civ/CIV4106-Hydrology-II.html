@@ -1,0 +1,15 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+CIV4106-Hydrology II
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/CIV4106">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %} {{ block('coursecode') }}:Hydrology II{% endblock %}
+{% block coursecode %}CIV4106{% endblock %}
+{% block courseName %} Bachelor Of Science In Civil Engineering  {% endblock %}
+
+{% block ref_textbks %} {% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/CIV4100" id="other_course_unit-linkbutton" class="link-item btn--pink">CIV4100-Civil Engineering Project I{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/CIV4101" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">CIV4101-Civil Engineering Management{% endblock courseunit_link_2 %}

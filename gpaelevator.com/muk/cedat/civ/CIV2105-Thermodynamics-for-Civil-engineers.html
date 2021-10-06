@@ -1,0 +1,19 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+
+{% block col_title %}
+CIV2105-Thermodynamics for Civil engineers
+{% endblock %}
+
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/CIV2105">{{ block('coursecode') }} {% endblock %}
+
+{% block courseunit %}{{ block('coursecode') }}:Thermodynamics for Civil engineers {% endblock %}
+{% block coursecode %}CIV2105{% endblock %}
+{% block courseName %} Bachelor Of Science In Civil Engineering  {% endblock %}
+
+{% block ref_textbks %} {% endblock %}
+
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/CIV2102" id="other_course_unit-linkbutton" class="link-item btn--pink">CIV2102-Engineering Geology{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/TEC2101" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">TEC2101-Sociology For Technology{% endblock courseunit_link_2 %}

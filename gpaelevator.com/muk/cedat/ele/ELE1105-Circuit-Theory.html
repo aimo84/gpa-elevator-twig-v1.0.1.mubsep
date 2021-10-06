@@ -1,0 +1,18 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+ELE1105-Circuit Theory
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/ELE1105">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %} {{ block('coursecode') }}:Circuit Theory{% endblock %}
+{% block coursecode %}ELE1105{% endblock %}
+{% block courseName %} Bachelor Of Science In Electrical Engineering  {% endblock %}
+
+{% block ref_textbks %} {% endblock %}
+
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/ELE1112" id="other_course_unit-linkbutton" class="link-item btn--pink">ELE1112-Introduction To Electrical Engineering and Society{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/CMP1103" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">CMP1103-Information Communication Technology{% endblock courseunit_link_2 %}
+        
+    

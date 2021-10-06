@@ -1,0 +1,17 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+MEC3201-Maintainace Engineering 
+{% endblock %}
+
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/MEC3201">{{ block('coursecode') }} {% endblock %}
+
+{% block courseunit %}{{ block('coursecode') }}:Maintainace Engineering{% endblock %}
+{% block coursecode %}MEC3201{% endblock %}
+{% block courseName %} Bachelor Of Science In Mechanical Engineering  {% endblock %}
+
+{% block ref_textbks %} {% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/MEC3202" id="other_course_unit-linkbutton" class="link-item btn--pink">MEC3202-Production Engineering II{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/MEC3203" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">MEC3203-Product Design & Development {% endblock courseunit_link_2 %}

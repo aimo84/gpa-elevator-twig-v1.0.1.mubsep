@@ -1,0 +1,17 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+TEL4114-Television and Video Engineering
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/TEL4114">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %} {{ block('coursecode') }}:Television and Video Engineering{% endblock %}
+{% block coursecode %}TEL4114{% endblock %}
+{% block courseName %} Bachelor Of Science In Electrical Engineering  {% endblock %}
+
+{% block ref_textbks %} {% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/CMP4102" id="other_course_unit-linkbutton" class="link-item btn--pink"> CMP4102-Instrumentation and Control Engineering{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/TEL4111" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">TEL4111-Digital Signal Processing{% endblock courseunit_link_2 %}
+        
+    

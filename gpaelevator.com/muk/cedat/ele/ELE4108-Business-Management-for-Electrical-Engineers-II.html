@@ -1,0 +1,17 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+ELE4108-Business Management For Electrical Engineers II
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/ELE4108">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %} {{ block('coursecode') }}:Business Management For Electrical Engineers II{% endblock %}
+{% block coursecode %}ELE4108{% endblock %}
+{% block courseName %} Bachelor Of Science In Electrical Engineering  {% endblock %}
+
+{% block ref_textbks %} {% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/TEL4113" id="other_course_unit-linkbutton" class="link-item btn--pink"> TEL4113-Optical Communication{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/ELE4102" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">ELE4102-Propagation{% endblock courseunit_link_2 %}
+        
+    

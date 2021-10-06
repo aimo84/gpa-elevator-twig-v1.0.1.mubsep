@@ -1,0 +1,15 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+CIV1102-Introduction to Civil Engineering
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/CIV1102">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %} {{ block('coursecode') }}:Introduction to Civil Engineering{% endblock %}
+{% block coursecode %}CIV1102{% endblock %}
+{% block courseName %} Bachelor Of Science In Civil Engineering  {% endblock %}
+
+{% block ref_textbks %} {% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/CIV1101" id="other_course_unit-linkbutton" class="link-item btn--pink">CIV1101-Engineering Drawing{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/CIV1103" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">CIV1103-Statics and Dynamics for Civil Engineers{% endblock courseunit_link_2 %}

@@ -1,0 +1,17 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+MEC2203-Computer Programming
+{% endblock %}
+
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/MEC2203">{{ block('coursecode') }} {% endblock %}
+
+{% block courseunit %}{{ block('coursecode') }}:Computer Programming{% endblock %}
+{% block coursecode %}MEC2203{% endblock %}
+{% block courseName %} Bachelor Of Science In Mechanical Engineering  {% endblock %}
+
+{% block ref_textbks %} {% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/MEC2204" id="other_course_unit-linkbutton" class="link-item btn--pink">MEC2204-Material Science and Engineering I{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/MEC2205" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">MEC2205-Fluid Mechanics II{% endblock courseunit_link_2 %}

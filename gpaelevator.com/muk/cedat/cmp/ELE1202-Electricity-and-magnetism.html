@@ -1,0 +1,22 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+ELE1202-Electricity & Magnetism	
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/ELE1202">{{ block('coursecode') }} {% endblock %}
+
+
+{% block courseName %} Bachelor Of Science In Computer Engineering  {% endblock %}
+
+{% block coursecode %}ELE1202{% endblock %}
+{% block courseunit %}{{ block('coursecode') }}:Electricity & Magnetism {% endblock %}
+
+{% block extra_lecture_notes %}
+{% endblock %}
+{% block ref_textbks %}
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/ELE1202-Electricity-and-Magnetism/Reference_books/[Sadiku]_Elements_Of_Electromagnetics(b-ok.org).pdf">{{ block('bk_icon') }}Elements Of Electromagnetics by Sadiku</a></i></b></li>
+{% endblock %}
+
+{% block courseunit_link_1 %}<a href="EMT1201" id="other_course_unit-linkbutton" class="link-item btn--pink">EMT1201-Engineering Mathematics II{% endblock courseunit_link_1 %} 
+{% block courseunit_link_2 %}<a href="CMP1201" id="other_course_unit-linkbutton" class="link-item btn--lightgreen">CMP1201-Computer Programming Fundamentals {% endblock %} 

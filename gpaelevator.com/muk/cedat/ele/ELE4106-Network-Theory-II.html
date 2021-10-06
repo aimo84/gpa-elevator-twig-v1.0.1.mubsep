@@ -1,0 +1,17 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+ELE4106-Network Theory II
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/ELE4106">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %} {{ block('coursecode') }}:Network Theory II{% endblock %}
+{% block coursecode %}ELE4106{% endblock %}
+{% block courseName %} Bachelor Of Science In Electrical Engineering  {% endblock %}
+
+{% block ref_textbks %} {% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/ELE4108" id="other_course_unit-linkbutton" class="link-item btn--pink"> ELE4108-Business Mgt for Electrical Engineers II{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/CMP4104" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">CMP4104-Digital Image and video Processing{% endblock courseunit_link_2 %}
+        
+    

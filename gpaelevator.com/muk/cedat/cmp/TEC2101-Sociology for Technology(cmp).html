@@ -1,0 +1,49 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+TEC2101-Sociology for Technology
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/TEC2101">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %}TEC2101:Sociology for Technology{% endblock %}
+{% block coursecode %}TEC2101{% endblock %}
+{% block courseName %} Bachelor of Science In Computer, Electrical, Biomedical & Telecommunication engineering{% endblock %}
+
+{% block lectureNotice %} 
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/Lecture_notes/Sociology_for_Tech/Lecture 1 What is sociology.pdf ">{{ block('pdf_icon') }}Lec1-What is sociology</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/Lecture_notes/Sociology_for_Tech/Lecture 2 The_Family.pdf">{{ block('pdf_icon') }}Lec2-The_Family</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/Lecture_notes/Sociology_for_Tech/Socialization.pdf">{{ block('pdf_icon') }}Lec3-Socialization </a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/Lecture_notes/Sociology_for_Tech/conflict_resolution-1.pdf">{{ block('pdf_icon') }}Lec4-conflict resolution</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/Lecture_notes/Sociology_for_Tech/CULTURE AND SOCIALISATION.pdf">{{ block('pdf_icon') }}Culture & Socialisation</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/Lecture_notes/Sociology_for_Tech/Functionalism and  Symbolic  Interactionism.pdf">{{ block('pdf_icon') }}Functionalism & Symbolic Interactionism</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/Lecture_notes/Sociology_for_Tech/Guiding Notes Social Structure .pdf">{{ block('pdf_icon') }}Guiding Notes Social Structure</a></i></b></li>
+{% endblock %}
+{% block extra_lecture_notes %}{% endblock %}
+  
+{% block ref_textbk_1_link %}<a href="http://localhost/pdf/muk/computer_eng/year2/sem1/Sociology_for_Tech/Reference_books/Introduction to Sociology.pdf">{% endblock %} 
+{% block ref_textbk_1_title %}Introduction to Sociology {% endblock %}
+
+{% block ref_textbk_2_link %}<a href="http://localhost/pdf/muk/computer_eng/year2/sem1/Sociology_for_Tech/Reference_books/The basic of sociology.pdf">{% endblock %} 
+{% block ref_textbk_2_title %}The basic of sociology {% endblock %}
+
+{% block ref_textbk_3_link %}<a href="http://localhost/pdf/muk/computer_eng/year2/sem1/Sociology_for_Tech/Reference_books/epdf.pub_self-and-social-change.pdf">{% endblock %} 
+{% block ref_textbk_3_title %}Self & Social Change {% endblock %}
+
+{% block ref_textbk_4_link %}<a href="http://localhost/pdf/muk/computer_eng/year2/sem1/Sociology_for_Tech/Reference_books/epdf.pub_sociology-in-our-times.pdf">{% endblock %} 
+{% block ref_textbk_4_title %}sociology in our times {% endblock %}
+
+{% block ref_textbk_5_link %}<a href="http://localhost/pdf/muk/computer_eng/year2/sem1/Sociology_for_Tech/Reference_books/Sociology, Work and Industry 5th edition slides.pdf">{% endblock %} 
+{% block ref_textbk_5_title %}Sociology, Work and Industry 5th edition  {% endblock %}
+
+{% block ref_textbk_6_link %}<a href="http://localhost/pdf/muk/computer_eng/year2/sem1/Sociology_for_Tech/Reference_books/Sociology for Technology-tec.pdf">{% endblock %} 
+{% block ref_textbk_6_title %}Sociology for Technology {% endblock %}
+
+
+{% block courseunit_link_1 %}<a href="EMT2101" id="other_course_unit-linkbutton" class="link-item btn--pink">EMT2101-Engineering Mathematics III {% endblock courseunit_link_1 %} 
+{% block courseunit_link_2 %}<a href="CMP1203" id="other_course_unit-linkbutton" class="link-item btn--lightgreen">CMP1203-Object Oriented Programming {% endblock courseunit_link_2 %} 
+
+{% block youtube_links %}
+<li> <a href="#">Sociology</a></li>
+<li><a href="#">The family as a social unit/a></li>
+<li><a href="#">SOciological Theories </a></li>
+{% endblock youtube_links %}

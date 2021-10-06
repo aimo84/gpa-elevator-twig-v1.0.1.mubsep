@@ -1,0 +1,38 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+
+{% block col_title %}
+CMP4202-VLSI Systems Design	
+{% endblock %}
+
+{% block courseunit %} CMP4202:VLSI Systems Design	 {% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/CMP4202">{{ block('coursecode') }} {% endblock %}
+{% block courseName %} Bachelor of Science In Computer & Electrical engineering{% endblock %}
+
+
+{% block lectureNotice %} 
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year4/sem2/CMP4202-VLSI/Lecture_notes/1. Introduction.pdf">{{ block('pdf_icon') }}Lecture 1</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year4/sem2/CMP4202-VLSI/Lecture_notes/Lecture  2.pdf">{{ block('pdf_icon') }}Lecture 2</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year4/sem2/CMP4202-VLSI/Lecture_notes/Lecture  3.pdf">{{ block('pdf_icon') }}Lecture 3</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year4/sem2/CMP4202-VLSI/Lecture_notes/Lecture 4.pdf">{{ block('pdf_icon') }}Lecture 4</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year4/sem2/CMP4202-VLSI/Lecture_notes/Lecture 5.pdf">{{ block('pdf_icon') }}Lecture 5</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year4/sem2/CMP4202-VLSI/Lecture_notes/Lecture 6. Drawing Stick Diagrams.pdf">{{ block('pdf_icon') }}Lecture 6</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year4/sem2/CMP4202-VLSI/Lecture_notes/Lecture 7 - MOS Transistor Theory.pdf">{{ block('pdf_icon') }}Lecture 7</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year4/sem2/CMP4202-VLSI/Lecture_notes/Lecture 8.pdf">{{ block('pdf_icon') }}Lecture 8</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year4/sem2/CMP4202-VLSI/Lecture_notes/Lecture 9. CMOS Inverters.pdf">{{ block('pdf_icon') }}Lecture 9</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year4/sem2/CMP4202-VLSI/Lecture_notes/Lecture 10. CMOS Delay Estimation-1.pdf">{{ block('pdf_icon') }}Lecture 10</a></i></b></li>
+{% endblock %}
+{% block extra_lecture_notes %}
+{% endblock %}
+{% block ref_textbks %}
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year4/sem2/CMP4202-VLSI/Reference_books/intro-nmos-cmos.pdf">{{ block('bk_icon') }}Introduction to nmos & cmos</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year4/sem2/CMP4202-VLSI/Reference_books/Modern_VLSI_Design.pdf">{{ block('bk_icon') }}Modern VLSI Design</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year4/sem2/CMP4202-VLSI/Reference_books/CMOS-VLSI-design.pdf">{{ block('bk_icon') }}CMOS VLSI design</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year4/sem2/CMP4202-VLSI/Reference_books/vlsi_design_tutorial.pdf">{{ block('bk_icon') }}VLSI Design by Tutorialpoint</a></i></b></li>
+{% endblock %}
+{% block coursecode %}CMP4202{% endblock %}
+
+
+{% block courseunit_link_1 %}<a href="CMP4205" id="other_course_unit-linkbutton" class="link-item btn--pink">CMP4205-Audio & Speech Signal Processing  {% endblock courseunit_link_1 %} 
+{% block courseunit_link_2 %}<a href="ELE4210" id="other_course_unit-linkbutton" class="link-item btn--lightgreen">ELE4210-Electrical Installation Design{% endblock  %} 

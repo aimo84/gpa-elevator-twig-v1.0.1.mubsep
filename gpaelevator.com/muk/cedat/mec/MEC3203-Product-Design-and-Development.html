@@ -1,0 +1,18 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+MEC3203-Product Design & Development
+{% endblock %}
+
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/MEC3203">{{ block('coursecode') }} {% endblock %}
+
+{% block courseunit %}{{ block('coursecode') }}:Product Design & Development{% endblock %}
+{% block coursecode %}MEC3203{% endblock %}
+{% block courseName %} Bachelor Of Science In Mechanical Engineering  {% endblock %}
+
+{% block ref_textbks %} {% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/MEC3204" id="other_course_unit-linkbutton" class="link-item btn--pink">MEC3204-Heat Transfer{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/MEC3205" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">MEC3205-Control System Engineering {% endblock courseunit_link_2 %}
+      

@@ -1,0 +1,51 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+CIV2202-Theory of Structure II
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/CIV2202">{{ block('coursecode') }} {% endblock %}
+{% block coursecode %} CIV2202{% endblock %}
+{% block courseName %} Bachelor of Science In Civil Engineering {% endblock %}
+{% block courseunit %}{{ block('coursecode') }}:Theory of Structure II{% endblock %}
+
+{% block lectureNotice %}
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Theory_of_Structures_II/Lecture_notes/Different derivations of beam Deflection formulae.pdf">{{ block('pdf_icon') }}Different derivations of beam Deflection formulae</a></i></b></li> 
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Theory_of_Structures_II/Lecture_notes/Continuum_CommonBeamFormulas.pdf">{{ block('pdf_icon') }}Continuum_CommonBeamFormulas</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Theory_of_Structures_II/Lecture_notes/Beam Deflection Formulae.pdf">{{ block('pdf_icon') }}Beam Deflection Formulae</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Theory_of_Structures_II/Lecture_notes/BeamDeflectionTable.pdf">{{ block('pdf_icon') }}Beam Deflection Table</a></i></b></li>
+{% endblock lectureNotice %}
+
+{% block extra_lecture_notes %}
+{% endblock %}
+
+{% block ref_textbk_1_link %}
+<a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Theory_of_Structures_II/Reference_books/Aslam Kassimali-Structural Analysis 4th Edition.pdf">
+{% endblock %}
+{% block ref_textbk_1_title %}
+Aslam Kassimali-Structural Analysis 4th Edition
+{% endblock %}
+{% block ref_textbk_2_link %}
+<a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Theory_of_Structures_II/Reference_books/R. C. Hibbeler-Structural Analysis 8th Edition.pdf">
+{% endblock %}
+{% block ref_textbk_2_title %}
+R. C. Hibbeler-Structural Analysis 8th Edition
+{% endblock %}
+
+{% block ref_textbk_3 %}{% endblock %}
+{% block ref_textbk_4 %}{% endblock %}
+{% block ref_textbk_5 %}{% endblock %}
+{% block ref_textbk_6 %}{% endblock %}
+
+
+{% block youtube_links %}
+<li> <a href="#" >Concrete mixture</a></li>
+<li><a href="#">Water as an Element Of concrete</a></li>
+<li><a href="#">Shearing stresses </a></li>
+<li><a href="#">Beams</a></li>
+<li><a href="#">Stress transformations</a></li>
+{% endblock youtube_links %}
+
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/CIV2203" id="other_course_unit-linkbutton" class="link-item btn--pink">CIV2203-Civil Engineering Materals{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/CIV2204" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">CIV2204-Engineering Surveying II{% endblock courseunit_link_2 %}

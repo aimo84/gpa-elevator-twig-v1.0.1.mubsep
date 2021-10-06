@@ -1,0 +1,51 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+
+{% block col_title %}
+CMP1202-Electronics II	
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/CMP1202">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %}CMP1202:Electronics II	 {% endblock %}
+
+{% block courseName %} Bachelor Of Science In Computer Engineering  {% endblock %}
+{% block coursecode %} CMP1202{% endblock %}
+
+{% block lectureNotice %} 
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1202_Electronics_II/Lecture_notes/BJT Part 1(2).pdf">{{ block('pdf_icon') }}BJTs</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1202_Electronics_II/Lecture_notes/Chapter 2 - Design Issues in Logic Circuits.pptx">{{ block('pdf_icon') }}Design Issues in Logic Circuits</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1202_Electronics_II/Lecture_notes/Chapter 3- Memory Devices.pdf">{{ block('pdf_icon') }}Memory Devices</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1202_Electronics_II/Lecture_notes/22_op_amps1.pdf">{{ block('pdf_icon') }}Opamps 01</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1202_Electronics_II/Lecture_notes/Amp-2.pdf">{{ block('pdf_icon') }}Opamps 02</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1202_Electronics_II/Lecture_notes/24_op_amps3.pdf">{{ block('pdf_icon') }}Opamps 03</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1202_Electronics_II/Lecture_notes/digital filter.pdf">{{ block('pdf_icon') }}digital filter</a></i></b></li>
+{% endblock %}
+{% block extra_lecture_notes %}
+{% endblock %}
+{% block ref_textbks %}
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1202_Electronics_II/Reference_books/digital signal filter tutorial.pdf">{{ block('bk_icon') }}Digital signal filter tutorial</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1202_Electronics_II/Reference_books/Interfacing Logic Families and Standard Buses.pdf">{{ block('bk_icon') }}Interfacing Logic Families and Standard Buses</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1202_Electronics_II/Reference_books/Microelectronic Circuits 6th by Sedra.pdf">{{ block('bk_icon') }}Microelectronic Circuits 6th by Sedra</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1202_Electronics_II/Reference_books/Electrical and Electronic Principles.pdf">{{ block('bk_icon') }}Electrical and Electronic Principles</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1202_Electronics_II/Reference_books/SolutionManual-MicroelectroniccircuitsbySedra.pdf">{{ block('bk_icon') }}Solution Manual-Microelectronic circuits by Sedra</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1202_Electronics_II/Reference_books/OperationalAmplifiersAndLinearICs_3E.pdf">{{ block('bk_icon') }}Operational Amplifiers And Linear ICs 3Ed</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1202_Electronics_II/Reference_books/Kybett - All New Electronics Self-Teaching Guide 3e (Wiley, 2008).pdf">{{ block('bk_icon') }}Kybett - All New Electronics Self-Teaching Guide 3e (Wiley, 2008)</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1202_Electronics_II/Reference_books/Circuits for the Electronics Hobbyist.pdf">{{ block('bk_icon') }}Circuits for the Electronics Hobbyist</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1202_Electronics_II/Reference_books/Digital Design (3rd edition) - M. Morris Mano.pdf">{{ block('bk_icon') }}Digital Design (3rd edition) - M. Morris Mano</a></i></b></li>
+{% endblock %}
+
+{% block exam_list_1 %}
+<li class="pastpaper"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1202_Electronics_II/Past_papers/2019_cmp1202_electronics.pdf">CMP1202-Continous Assessment Test I</a></i></b></li>
+<li class="pastpaper"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1202_Electronics_II/Past_papers/2019electronicstest - solutions.pdf">CMP1202-Continous Assessment Test II</a></i></b></li>
+<li class="pastpaper"><b><i><a href="http://localhost/Past_papers/erormassage.html">CMP1202-Final Semester Exam</a></i></b></li>
+{% endblock %}
+
+{% block papers_before_14 %}
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1202_Electronics_II/Past_papers/2010 exam.pdf">CMP1202-Final Exam(2010)</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1202_Electronics_II/Past_papers/cat II 2009.pdf">CMP1202-CAT(2009)</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1202_Electronics_II/Past_papers/Cat I 2010-2011.pdf">CMP1202-CATI-2010/2011</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1202_Electronics_II/Past_papers/CMP1202-CAT.pdf">CMP1202-CAT(2012)</a></i></b></li>
+
+{% endblock %}
+{% block courseunit_link_1 %}<a href="CMP1203" id="other_course_unit-linkbutton" class="link-item btn--pink">CMP1203-Computer Arch. & Organization {% endblock courseunit_link_1 %} 
+{% block courseunit_link_2 %}<a href="EMT1201" id="other_course_unit-linkbutton" class="link-item btn--lightgreen">EMT1201-Engineering Mathematics II {% endblock %} 

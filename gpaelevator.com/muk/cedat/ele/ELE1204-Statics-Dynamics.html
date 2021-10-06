@@ -1,0 +1,18 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+
+{% block col_title %}
+ELE1204-Statics & Dynamics
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/ELE1204">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %} {{ block('coursecode') }}:Statics & Dynamics{% endblock %}
+{% block coursecode %}ELE1204{% endblock %}
+
+{% block courseName %} Bachelor Of Science In Electrical Engineering  {% endblock %}
+
+{% block ref_textbks %} {% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/ELE1201" id="other_course_unit-linkbutton" class="link-item btn--pink">ELE1201-Introduction To Digital Electronics {% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/ELE1205" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">ELE1205-Electrical Materials{% endblock courseunit_link_2 %}
+            

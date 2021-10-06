@@ -1,0 +1,15 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+ELE3204-Communication Engineering I
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/ELE3204">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %} {{ block('coursecode') }}:Communication Engineering I{% endblock %}
+{% block coursecode %}ELE3204{% endblock %}
+{% block courseName %} Bachelor Of Science In Electrical Engineering  {% endblock %}
+
+{% block ref_textbks %} {% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/ELE3203" id="other_course_unit-linkbutton" class="link-item btn--pink">ELE3203-Power Electronics {% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/ELE3217" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">ELE3217-Mobile Communication Systems{% endblock courseunit_link_2 %}

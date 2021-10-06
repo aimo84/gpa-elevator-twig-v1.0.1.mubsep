@@ -1,0 +1,67 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+CIV2203-Civil Engineering Materials
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/CIV2203">{{ block('coursecode') }} {% endblock %}
+{% block coursecode %} CIV2203{% endblock %}
+{% block courseName %} Bachelor of Science In Civil Engineering {% endblock %}
+{% block courseunit %}{{ block('coursecode') }}:Civil Engineering Materials{% endblock %}
+
+{% block lectureNotice %}
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Civil_Engineering_materials/Lecture_notes/Chapter 1-Introduction.pdf">{{ block('pdf_icon') }}Introduction</a></i></b></li> 
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Civil_Engineering_materials/Lecture_notes/Chapter 2-Concrete Ia-Cement.pdf">{{ block('pdf_icon') }}Concrete 1 >> Cement</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Civil_Engineering_materials/Lecture_notes/Chapter 2-Concrete Ib-Aggregates, Water and Admixtures.pdf">{{ block('pdf_icon') }}Concrete 2 >> Aggregates, Water and Admixtures </a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Civil_Engineering_materials/Lecture_notes/Chapter 3a-Concrete II.pdf">{{ block('pdf_icon') }}Concrete II</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Civil_Engineering_materials/Lecture_notes/Chapter 3b-Concrete Mix design.pdf">{{ block('pdf_icon') }}Concrete Mix design</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Civil_Engineering_materials/Lecture_notes/Chapter 4-Bricks and Blocks.pdf">{{ block('pdf_icon') }}Bricks and Blocks</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Civil_Engineering_materials/Lecture_notes/Chapter 5-Timber.pdf">{{ block('pdf_icon') }}Timber</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Civil_Engineering_materials/Lecture_notes/Chapter 6-Metals.pdf">{{ block('pdf_icon') }}Metals</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Civil_Engineering_materials/Lecture_notes/Chapter 7-Polymeric materials (General).pdf">{{ block('pdf_icon') }}Polymeric materials (General)</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Civil_Engineering_materials/Lecture_notes/Chapter 7-Polymeric materials (Protection and Decorative materials).pdf">{{ block('pdf_icon') }}Polymeric materials (Protection and Decorative materials)</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Civil_Engineering_materials/Lecture_notes/Chapter 8-Bituminous materials.pdf">{{ block('pdf_icon') }}Bituminous materials</a></i></b></li>
+{% endblock lectureNotice %}
+
+{% block extra_lecture_notes %}
+{% endblock %}
+
+{% block ref_textbk_1_link %}
+<a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Civil_Engineering_materials/Reference_books/Transport and sorption phenomena in concrete and other porous media.pdf">
+{% endblock %}
+{% block ref_textbk_1_title %}
+Transport and sorption phenomena in concrete and other porous media
+{% endblock %}
+{% block ref_textbk_2_link %}
+<a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Civil_Engineering_materials/Reference_books/Durability Design of Concrete Structures in the Severe Environments.pdf">
+{% endblock %}
+{% block ref_textbk_2_title %}
+Durability Design of Concrete Structures in the Severe Environments
+{% endblock %}
+{% block ref_textbk_3_link %}
+<a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Civil_Engineering_materials/Reference_books/A. Neville - Properties of Concrete 4th ed.pdf">
+{% endblock %}
+{% block ref_textbk_3_title %}
+A. Neville-Properties of Concrete 4th ed
+{% endblock %}
+{% block ref_textbk_4_link %}
+<a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Civil_Engineering_materials/Reference_books/(eng civil) concrete practice - 3rd edition [british cement association] 2002.pdf">
+{% endblock %}
+{% block ref_textbk_4_title %}
+Concrete practice - 3rd edition [british cement association] 2002
+{% endblock %}
+{% block ref_textbk_5 %}{% endblock %}
+{% block ref_textbk_6 %}{% endblock %}
+
+
+{% block youtube_links %}
+<li> <a href="#" >Concrete mixture</a></li>
+<li><a href="#">Water as an Element Of concrete</a></li>
+<li><a href="#">Shearing stresses </a></li>
+<li><a href="#">Beams</a></li>
+<li><a href="#">Stress transformations</a></li>
+{% endblock youtube_links %}
+
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/CIV2202" id="other_course_unit-linkbutton" class="link-item btn--pink">CIV2202-Structure II{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/CIV2201" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">CIV2201-Soil Mechanics {% endblock courseunit_link_2 %}

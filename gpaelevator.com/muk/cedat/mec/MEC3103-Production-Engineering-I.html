@@ -1,0 +1,17 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+MEC3103-Production Engineering I
+{% endblock %}
+
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/MEC3103">{{ block('coursecode') }} {% endblock %}
+
+{% block courseunit %}{{ block('coursecode') }}:Production Engineering I{% endblock %}
+{% block coursecode %}MEC3103{% endblock %}
+{% block courseName %} Bachelor Of Science In Mechanical Engineering  {% endblock %}
+
+{% block ref_textbks %} {% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/MEC3104" id="other_course_unit-linkbutton" class="link-item btn--pink">MEC3104-Design of Machine Elements{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/MEC3105" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">MEC3105-Dynamic Systems Engineering{% endblock courseunit_link_2 %}

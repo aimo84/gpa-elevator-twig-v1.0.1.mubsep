@@ -1,0 +1,15 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+ELE3202-Control Engineering
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/ELE3202">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %} {{ block('coursecode') }}:Control Engineering{% endblock %}
+{% block coursecode %}ELE3202{% endblock %}
+{% block courseName %} Bachelor Of Science In Electrical Engineering  {% endblock %}
+
+{% block ref_textbks %} {% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/ELE3203" id="other_course_unit-linkbutton" class="link-item btn--pink">ELE3203-Power Electronics {% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/TEL3217" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">TEL3217-Systems Engineering{% endblock courseunit_link_2 %}

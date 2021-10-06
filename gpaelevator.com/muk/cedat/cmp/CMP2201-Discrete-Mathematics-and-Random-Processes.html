@@ -1,0 +1,34 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+
+{% block col_title %}
+CMP2201-Discrete Mathematics and Random Processes
+{% endblock %}
+{% block coursecode %} CMP2201{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/CMP2101">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %}CMP2201:Discrete Mathematics and Random Processes {% endblock %}
+
+{% block lectureNotice %} 
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2201-discrete_math/Lecture_notes/Probability and Random Processes.pdf">{{ block('pdf_icon') }}Probability and Random Processes</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2201-discrete_math/Lecture_notes/lectnotes prob.pdf">{{ block('pdf_icon') }}Probability</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2201-discrete_math/Lecture_notes/Sets, Function and Relations.pdf">{{ block('pdf_icon') }}Sets,Function and Relations</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2201-discrete_math/Lecture_notes/Propositions.pdf">{{ block('pdf_icon') }}Propositions</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2201-discrete_math/Lecture_notes/recurrence.pdf">{{ block('pdf_icon') }}Recurrence</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2201-discrete_math/Lecture_notes/DISCRETE MATHS-Graphs.pdf">{{ block('pdf_icon') }}Graphs in Discrete Math</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2201-discrete_math/Lecture_notes/Tree.pdf">{{ block('pdf_icon') }}Tree</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2201-discrete_math/Lecture_notes/Measures of central tendencies.pdf">{{ block('pdf_icon') }}Measures of central tendencies</a></i></b></li>
+{% endblock %}
+{% block extra_lecture_notes %}{% endblock %}
+
+{% block ref_textbks %}    
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2201-discrete_math/Reference_books/John A. Dossey, Albert D. Otto, Lawrence E. Spence, Charles Vanden Eynden-Discrete Mathematics (4th Edition) (2001).pdf">{{ block('bk_icon') }}John A. Dossey, Albert D. Otto, Lawrence E. Spence, Charles Vanden Eynden-Discrete Mathematics (4th Edition) (2001)</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2201-discrete_math/Reference_books/Discrete Mathematics and Its Applications 7th Edition Rosen.pdf">{{ block('bk_icon') }}Discrete Mathematics and Its Applications 7th Edition Rosen</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2201-discrete_math/Reference_books/fullbook.pdf">{{ block('bk_icon') }}Discrete Math for Computer Science Students</a></i></b></li>
+{% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/CMP2204" id="other_course_unit-linkbutton" class="link-item btn--pink">CMP2204-Operating Sys.{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/CMP2203" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">CMP2203-Digital Logic {% endblock courseunit_link_2 %}
+    
+
+

@@ -1,0 +1,18 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+CMP4104-Digital Image and Video Processing
+{% endblock %}
+
+{% block courseunit %} {{ block('coursecode') }}:Digital Image and Video Processing{% endblock %}
+{% block coursecode %}CMP4104{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/CMP4104">{{ block('coursecode') }} {% endblock %}
+    {% block courseName %} Bachelor of Science In Computer, Electrical & Telecommunication engineering{% endblock %}
+{% block ref_textbks %} {% endblock %}
+
+
+{% block courseunit_link_1 %}<a href="CMP4101" id="other_course_unit-linkbutton" class="link-item btn--pink">CMP4101-Digital Signal Processing {% endblock courseunit_link_1 %} 
+{% block courseunit_link_2 %}<a href="TEC4102" id="other_course_unit-linkbutton" class="link-item btn--lightgreen">TEC4102-Principles of Management{% endblock %} 
+        
+    

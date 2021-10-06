@@ -1,0 +1,18 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+CMP3101-Database Systems
+{% endblock %}
+
+{% block courseunit %} {{ block('coursecode') }}:Database Systems{% endblock %}
+{% block coursecode %}CMP3101{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/CMP3101">{{ block('coursecode') }} {% endblock %}
+{% block courseName %} Bachelor Of Science In Computer Engineering  {% endblock %}
+{% block ref_textbks %} {% endblock %}
+
+
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/ELE3102" id="other_course_unit-linkbutton" class="link-item btn--pink">ELE3102-Applied Electronics{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/CMP3104" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">CMP3104-C.Based Medical Sys. {% endblock courseunit_link_2 %}
+        

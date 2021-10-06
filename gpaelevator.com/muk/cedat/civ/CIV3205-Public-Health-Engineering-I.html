@@ -1,0 +1,15 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+CIV3205-Public Health Engineering
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/CIV3205">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %} {{ block('coursecode') }}:Public Health Engineering I{% endblock %}
+{% block coursecode %}CIV3205{% endblock %}
+{% block courseName %} Bachelor Of Science In Civil Engineering  {% endblock %}
+
+{% block ref_textbks %} {% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/CIV3201" id="other_course_unit-linkbutton" class="link-item btn--pink">CIV3201-Foundation Engineering{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/CIV3202" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">CIV3202-Group Design Project {% endblock courseunit_link_2 %}

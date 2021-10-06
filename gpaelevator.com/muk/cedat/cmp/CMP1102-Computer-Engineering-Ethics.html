@@ -1,0 +1,31 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+CMP1102-Computer Engineering Ethics
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/CMP1102">{{ block('coursecode') }} {% endblock %}
+{% block courseName %} Bachelor of Science In Computer engineering{% endblock %}
+{% block courseunit %}{{ block('coursecode') }}:Computer Engineering Ethics{% endblock %}
+{% block coursecode %} CMP1102{% endblock %}
+{% block lectureNotice %}
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem1/CMP1103-ICT/Lecture_notes/file.pdf ">{{ block('pdf_icon') }}Lec 1-Intro </a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem1/CMP1103-ICT/Lecture_notes/Internet, E-mail and other Web services slides.ppx ">{{ block('pdf_icon') }}Lec 2-Internet, E-mail and other Web services</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem1/CMP1103-ICT/Lecture_notes/file_1.pdf ">{{ block('pdf_icon') }}Lec 3-Number systems </a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem1/CMP1103-ICT/Lecture_notes/file_2.pdf ">{{ block('pdf_icon') }}Lec 4-Classification</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem1/CMP1103-ICT/Lecture_notes/file_3.pdf ">{{ block('pdf_icon') }}Lec 5-OSI & TCP/IP models </a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem1/CMP1103-ICT/Lecture_notes/file_4.pdf ">{{ block('pdf_icon') }}Lec 6-Colaboration Tools </a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem1/CMP1103-ICT/Lecture_notes/file_5.pdf ">{{ block('pdf_icon') }}Lec 7-Computer Arch. </a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem1/CMP1103-ICT/Lecture_notes/file_6.pdf ">{{ block('pdf_icon') }}Lec 8-Privacy</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem1/CMP1103-ICT/Lecture_notes/file_7.pdf ">{{ block('pdf_icon') }}Lec 9-Privacy2 </a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem1/CMP1103-ICT/Lecture_notes/file_8.pdf ">{{ block('pdf_icon') }}Lec 10-Privacy3 </a></i></b></li>
+{% endblock %}
+{% block extra_lecture_notes %}{% endblock %}
+
+
+{% block ref_textbks %}{% endblock %}
+
+{% block courseunit_link_1 %}<a href="EMT1101" id="other_course_unit-linkbutton" class="btn btn-sm btn--pink">EMT1101-Engineering Mathematics I {% endblock %}
+
+{% block courseunit_link_2 %} <a href="CMP1101" class="btn link-item btn--pink" id="other_course_unit-linkbutton">CMP1101-Electronis 1 {% endblock %}
+    

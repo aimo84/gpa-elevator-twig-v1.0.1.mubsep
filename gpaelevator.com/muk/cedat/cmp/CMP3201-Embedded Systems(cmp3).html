@@ -1,0 +1,38 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+
+{% block col_title %}
+CMP3201-Embedded Systems
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+    {% block Course_unit_name %}<a href="http://localhost/cedat/CMP3201">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %}CMP3201:Embedded Systems {% endblock %}
+
+{% block lectureNotice %} 
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3201-Embedded_Systems/Lecture_notes/Lecture 1 - Introduction.pdf">{{ block('pdf_icon') }}Introduction</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3201-Embedded_Systems/Lecture_notes/Lecture 2 - Peripherals and Interrupts.pdf">{{ block('pdf_icon') }}Peripherals and Interrupts</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3201-Embedded_Systems/Lecture_notes/Lecture 3 - Embedded Software Development.pdf">{{ block('pdf_icon') }}Embedded Software Development</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3201-Embedded_Systems/Lecture_notes/Lecture 4 - Real Time Systems.pdf">{{ block('pdf_icon') }}Real Time Systems</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3201-Embedded_Systems/Lecture_notes/Lecture 5 - Scheduling Polices.pdf">{{ block('pdf_icon') }}Scheduling Polices</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3201-Embedded_Systems/Lecture_notes/Lecture 6-Low Power Computing.pdf">{{ block('pdf_icon') }}Low Power Computing</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3201-Embedded_Systems/Lecture_notes/Lecture 7 - Reliablity and Dependability Engineering.pdf">{{ block('pdf_icon') }}Reliablity and Dependability Engineering</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3201-Embedded_Systems/Lecture_notes/lecture 8a.pdf">{{ block('pdf_icon') }}Microcontroller Interfacing</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3201-Embedded_Systems/Lecture_notes/lecture 8b.pdf">{{ block('pdf_icon') }}Analog Interfacing</a></i></b></li>
+{% endblock %}
+{% block extra_lecture_notes %}{% endblock %}
+{% block coursecode %} CMP3201{% endblock %}
+
+{% block youtube_links %}
+<li> <a href="#">Peripherals and Interrupts</a></li>
+<li><a href="#">Embedded Software Development</a></li>
+<li><a href="#">Real Time Systems</a></li>
+<li><a href="#">Scheduling Polices</a></li>
+<li><a href="#">Low Power Computing</a></li>
+<li><a href="#">Analog Interfacing</a></li>
+<li><a href="#">Microcontroller Interfacing</a></li>
+{% endblock youtube_links %}
+
+{% block courseunit_link_2 %}<a href="CMP3202" id="other_course_unit-linkbutton" class="link-item btn--pink">CMP3202-Human Computer Interaction {% endblock %} 
+{% block courseunit_link_1 %}<a href="CMP3203" id="other_course_unit-linkbutton" class="link-item btn--pink">CMP3203-Computer System Maintainace {% endblock  %}
+    
+{% block ref_textbks %} {% endblock %}

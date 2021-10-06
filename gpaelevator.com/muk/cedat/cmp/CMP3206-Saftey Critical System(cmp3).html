@@ -1,0 +1,43 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+
+{% block col_title %}
+CMP3206-Saftey Critical System
+{% endblock %}
+{% block coursecode %} CMP3206{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/CMP3206">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %}CMP3206:Saftey Critical System {% endblock %}
+
+{% block lectureNotice %} 
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3206 Safety Critical Systems/Lecture_notes/course outline.pdf">{{ block('pdf_icon') }}Course Content</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3206 Safety Critical Systems/Lecture_notes/Lecture 1.pdf">{{ block('pdf_icon') }}Lecture 1</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3206 Safety Critical Systems/Lecture_notes/Lecture 2.pdf">{{ block('pdf_icon') }}Lecture 2</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3206 Safety Critical Systems/Lecture_notes/Lecture 3.pdf">{{ block('pdf_icon') }}Lecture 3</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3206 Safety Critical Systems/Lecture_notes/Lecture 4.pdf">{{ block('pdf_icon') }}Lecture 4</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3206 Safety Critical Systems/Lecture_notes/Lecture 5.pdf">{{ block('pdf_icon') }}Lecture 5</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3206 Safety Critical Systems/Lecture_notes/lecture 6.pdf">{{ block('pdf_icon') }}Lecture 6</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3206 Safety Critical Systems/Lecture_notes/lecture7.pdf">{{ block('pdf_icon') }}Lecture 7</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3206 Safety Critical Systems/Lecture_notes/LECTURE 8.pdf">{{ block('pdf_icon') }}Lecture 8</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3206 Safety Critical Systems/Lecture_notes/1.lecture 9.pdf">{{ block('pdf_icon') }}Lecture 9</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3206 Safety Critical Systems/Lecture_notes/lecture 10.pdf">{{ block('pdf_icon') }}Lecture 10</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3206 Safety Critical Systems/Lecture_notes/lecture 11.pdf">{{ block('pdf_icon') }}Lecture 11</a></i></b></li>
+
+{% endblock %}
+
+{% block hidden_lecture_notes %}
+Other Sources
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3206 Safety Critical Systems/Lecture_notes/CS432_ch3_Critical Systems.pdf">{{ block('bk_icon') }}Critical Systems</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3206 Safety Critical Systems/Lecture_notes/PSM and Methods.pdf">{{ block('bk_icon') }}PSM and Methods</a></i></b></li>
+{% endblock %}
+
+
+{% endblock %}
+{% block papers_before_14 %}
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3206 Safety Critical Systems/Past_papers/CAT2-2012.pdf">CMP3206-CAT2-2012</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3206 Safety Critical Systems/Past_papers/CMP3206Safety Critical System Examination(2012).pdf">CMP3206-Examination-2012</a></i></b></li>
+{% endblock %}
+
+{% block courseunit_link_2 %}<a href="CMP3201" id="other_course_unit-linkbutton" class="link-item btn--pink">CMP3201-Embedded Sys. {% endblock  %} 
+{% block courseunit_link_1 %}<a href="CMP3207" id="other_course_unit-linkbutton" class="link-item btn--pink">CMP3207-Sustainable Sys.{% endblock  %}
+{% block ref_textbks %} {% endblock %}

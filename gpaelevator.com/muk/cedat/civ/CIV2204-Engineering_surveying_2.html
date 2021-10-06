@@ -1,0 +1,62 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+CIV2204-Engineering Surveying II
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/CIV2204">{{ block('coursecode') }} {% endblock %}
+{% block coursecode %} CIV2204{% endblock %}
+{% block courseName %} Bachelor of Science In Civil Engineering {% endblock %}
+{% block courseunit %}{{ block('coursecode') }}:Engineering Surveying II{% endblock %}
+
+{% block lectureNotice %}
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Engineering_Surveying_II/Lecture_notes/Surveying II - Lecture Notes.pdf">{{ block('pdf_icon') }}Surveying II-Lecture Notes</a></i></b></li> 
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Engineering_Surveying_II/Lecture_notes/3A1 Lecture 11 SETTING OUT.pdf">{{ block('pdf_icon') }}Setting Out</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Engineering_Surveying_II/Lecture_notes/3A1 Lecture 12 CIRCULAR CURVES.pdf">{{ block('pdf_icon') }}Circular Curves</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Engineering_Surveying_II/Lecture_notes/3A1 Lecture 13 TRANSITION  CURVES.pdf">{{ block('pdf_icon') }}Transition  Curves</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Engineering_Surveying_II/Lecture_notes/Circular curves.pdf">{{ block('pdf_icon') }}Circular curves 2</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Engineering_Surveying_II/Lecture_notes/CIV2204 CIVIL ENGINEERING SURVEYING II 2013.pdf">{{ block('pdf_icon') }}Lecture Notes 2013</a></i></b></li>
+{% endblock lectureNotice %}
+
+{% block extra_lecture_notes %}
+{% endblock %}
+
+{% block ref_textbk_1_link %}
+<a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Engineering_Surveying_II/Reference_books/Engineering Surveying, 5th Ed_0750649879.pdf">
+{% endblock %}
+{% block ref_textbk_1_title %}
+Engineering Surveying, 5th Edition
+{% endblock %}
+{% block ref_textbk_2_link %}
+<a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Engineering_Surveying_II/Reference_books/Surveying(edn6)_Bannister & Raymond(1992).pdf">
+{% endblock %}
+{% block ref_textbk_2_title %}
+Surveying(edn6)-Bannister & Raymond(1992)
+{% endblock %}
+{% block ref_textbk_3_link %}
+<a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Engineering_Surveying_II/Reference_books/the principles of surveying.pdf">
+{% endblock %}
+{% block ref_textbk_3_title %}
+The principles of surveying
+{% endblock %}
+{% block ref_textbk_4_link %}
+<a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Engineering_Surveying_II/Reference_books/engineering surveying.pdf">
+{% endblock %}
+{% block ref_textbk_4_title %}
+Engineering surveying by Schofield and Breach
+{% endblock %}
+{% block ref_textbk_5 %}{% endblock %}
+{% block ref_textbk_6 %}{% endblock %}
+
+
+{% block youtube_links %}
+<li> <a href="#" >Concrete mixture</a></li>
+<li><a href="#">Water as an Element Of concrete</a></li>
+<li><a href="#">Shearing stresses </a></li>
+<li><a href="#">Beams</a></li>
+<li><a href="#">Stress transformations</a></li>
+{% endblock youtube_links %}
+
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/CIV2203" id="other_course_unit-linkbutton" class="link-item btn--pink">CIV2203-Civil Engineering Materals{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/CIV2201" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">CIV2201-Soil Mechanics {% endblock courseunit_link_2 %}

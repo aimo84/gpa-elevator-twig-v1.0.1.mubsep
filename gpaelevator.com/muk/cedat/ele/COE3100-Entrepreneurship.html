@@ -1,0 +1,17 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+COE3100-Entrepreneurship
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/COE3100">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %} {{ block('coursecode') }}:Entrepreneurship{% endblock %}
+{% block coursecode %}COE3100{% endblock %}
+{% block courseName %} Bachelor Of Science In Electrical Engineering  {% endblock %}
+
+{% block ref_textbks %} {% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/ELE3102" id="other_course_unit-linkbutton" class="link-item btn--pink">ELE3102-Applied Analogue Electronics {% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/ELE3103" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">ELE3103-Applied Digital Electronics {% endblock courseunit_link_2 %}
+        
+    

@@ -1,0 +1,64 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+Computer Architecture & Organization
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/CMP1203">{{ block('coursecode') }} {% endblock %}
+
+{% block lectureNotice %}
+<!-- <i class="pdf fas fa-file-pdf"></i> -->
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1203-architecture/Lecture_notes/lecture1.pdf">{{ block('pdf_icon') }}Lecture 1 </a></i></b></li> 
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1203-architecture/Lecture_notes/lecture2.pdf">{{ block('pdf_icon') }}Lecture 2 </a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1203-architecture/Lecture_notes/lecture3.pdf">{{ block('pdf_icon') }}Lecture 3 </a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1203-architecture/Lecture_notes/lecture4.pdf">{{ block('pdf_icon') }}Lecture 4</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1203-architecture/Lecture_notes/lecture5.pdf">{{ block('pdf_icon') }}Lecture 5 </a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1203-architecture/Lecture_notes/lecture6.pdf">{{ block('pdf_icon') }}Lecture 6</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1203-architecture/Lecture_notes/lecture7.pdf">{{ block('pdf_icon') }}Lecture 7</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1203-architecture/Lecture_notes/lecture8.pdf">{{ block('pdf_icon') }}Lecture 8 </a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1203-architecture/Lecture_notes/lecture8.pdf">{{ block('pdf_icon') }}Lecture 9 </a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1203-architecture/Lecture_notes/lecture10.pdf">{{ block('pdf_icon') }}Lecture 10 </a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1203-architecture/Lecture_notes/lecture11.pdf">{{ block('pdf_icon') }}Lecture 11</a></i></b></li>
+
+{% endblock lectureNotice %}
+{% block extra_lecture_notes %}{% endblock %}
+{% block ref_textbk_1_link %}
+<a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1203-architecture/Reference_books/Fundamentals-of-Computer-Organization-and-Architecture.pdf">
+{% endblock %}
+{% block ref_textbk_1_title %}
+Fundamentals-of-Computer-Organization-and-Architecture
+{% endblock %}
+{% block ref_textbk_2_link %}
+<a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1203-architecture/Reference_books/Linda Null and Julia Lobur-The Essentials of Computer Organization and Architecture-Jones & Bartlett.pdf">
+{% endblock %}
+{% block ref_textbk_2_title %}
+Linda Null and Julia Lobur-The Essentials of Computer Organization and Architecture-Jones & Bartlett
+{% endblock %}
+{% block ref_textbk_3 %}{% endblock %}
+{% block ref_textbk_4 %}{% endblock %}
+{% block ref_textbk_5 %}{% endblock %}
+{% block ref_textbk_6 %}{% endblock %}
+
+{% block coursecode %} CMP1203{% endblock %}
+{% block exam_list_1 %}
+<li class="pastpaper"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1203-architecture/Past_papers/CMP1203-Computer Organization and Architecture-CAT1.pdf">CMP1203-Continous Assessment Test I</a></i></b></li>
+<li class="pastpaper"><b><i><a href="http://localhost/admin/index">CMP1203-Continous Assessment Test II</a></i></b></li>
+<li class="pastpaper"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1203-architecture/Past_papers/CMP1203-Compute-Organization and Architecture-END OF SEM FINAL EXAM-2019.pdf">CMP1203-Final Semester Exam</a></i></b></li>
+{% endblock exam_list_1 %}
+
+{% block exam_list_2 %}
+<li class="pastpaper"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1203-architecture/Past_papers/CMP1203-Computer Organization and Architecture-CAT1.pdf">CMP1203-Continous Assessment Test I</a></i></b></li>
+<li class="pastpaper"><b><i><a href="#">CMP1203-Continous Assessment Test II</a></i></b></li>
+<li class="pastpaper"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1203-architecture/Past_papers/CMP1203-Computer Organization and Architecture-END OF SEM FINAL EXAM-2019.pdf">CMP1203-Final Semester Exam</a></i></b></li>
+{% endblock exam_list_2 %}
+
+{% block exam_list_3 %}
+<li class="pastpapert"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1203-architecture/Past_papers/CMP1203-Computer Organization and Architecture-CAT1.pdf">CMP1203-Continous Assessment Test I</a></i></b></li>
+<li class="pastpaper"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem1/CMP1203-architecture/Past_papers/#.pdf">CMP1203-Continous Assessment Test II</a></i></b></li>
+<li class="pastpaper"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1203-architecture/Past_papers/CMP1203-Computer Organization and Architecture-END OF SEM FINAL EXAM-2019.pdf">CMP1203-Final Semester Exam</a></i></b></li>
+{% endblock exam_list_3 %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/CMP1201" id="other_course_unit-linkbutton" class="link-item btn--pink">CMP1201-Programming Fundamentals{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/EMT1201" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">EMT1201-Engineering Mathematics II {% endblock courseunit_link_2 %}
+    
+

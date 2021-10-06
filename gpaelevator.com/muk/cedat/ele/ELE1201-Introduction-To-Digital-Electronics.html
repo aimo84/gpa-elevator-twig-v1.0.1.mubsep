@@ -1,0 +1,16 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+ELE1201-Introduction To Digital Electronics
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/ELE1201">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %} {{ block('coursecode') }}:Introduction To Digital Electronics{% endblock %}
+{% block coursecode %}ELE1201{% endblock %}
+{% block courseName %} Bachelor Of Science In Electrical Engineering  {% endblock %}
+
+{% block ref_textbks %} {% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/CMP1201" id="other_course_unit-linkbutton" class="link-item btn--pink">CMP1201-Computer Programming Fundamentals {% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/ELE1205" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">ELE1205-Electrical Materials{% endblock courseunit_link_2 %}
+                

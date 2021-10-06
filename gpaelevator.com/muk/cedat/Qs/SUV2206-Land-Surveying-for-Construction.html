@@ -1,0 +1,31 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+
+{% block col_title %}
+SUV2206-Land Surveying for Construction
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/SUV2206 ">{{ block('coursecode') }} {% endblock %}
+
+{% block coursecode %} SUV2206 {% endblock %}
+{% block courseunit %}{{ block('coursecode') }}:Land Surveying for Construction {% endblock %}
+{% block courseName %} Bachelor Of Science In Quantity Surveying {% endblock %}
+
+{% block lectureNotice %} 
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/QUS1205-Construction-Technology-I/Lecture_notes/CMP-2203 course content.pdf">{{ block('pdf_icon') }}course content</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/QUS1205-Construction-Technology-I/Lecture_notes/Lecture 1.pdf">{{ block('pdf_icon') }}Lecture 1</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/QUS1205-Construction-Technology-I/Lecture_notes/Lecture 2.pdf">{{ block('pdf_icon') }}Lecture 2</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/QUS1205-Construction-Technology-I/Lecture_notes/Lecture 3.pdf">{{ block('pdf_icon') }}Lecture 3</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/QUS1205-Construction-Technology-I/Lecture_notes/Lecture 4.pdf">{{ block('pdf_icon') }}Lecture 4</a></i></b></li>
+{% endblock %}
+{% block hidden_lecture_notes %}
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/QUS1205-Construction-Technology-I/Lecture_notes/Lecture11.pdf">{{ block('pdf_icon') }}Lecture 11</a></i></b></li>
+{% endblock %}
+{% block ref_textbks %}    
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/QUS1205-Construction-Technology-I/Reference_books/fundamentals-of-digital-logic-with-vhdl-design-stephen-brown-3rd-ed.pdf">{{ block('bk_icon') }}Fundamentals of digital logic with vhdl design stephen brown 3rd ed</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/QUS1205-Construction-Technology-I/Reference_books/Digital Systems Principles And Applications  [by Ronald Tocci].pdf">{{ block('bk_icon') }} Digital Systems Principles And Applications  [by Ronald Tocci]</a></i></b></li>
+{% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/LAW2202" class="link-item btn--pink" id="other_course_unit-linkbutton"> LAW2202-Commercial Law for Construction	{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/QUS2201" class="link-item btn--lightgreen" id="other_course_unit-linkbutton"> QUS2201-Quantity Surveying II {% endblock courseunit_link_2 %}
+    

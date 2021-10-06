@@ -1,0 +1,17 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+ELE2213-Instrumentation
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/ELE2213">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %} {{ block('coursecode') }}:Instrumentation{% endblock %}
+{% block coursecode %}ELE2213{% endblock %}
+{% block courseName %} Bachelor Of Science In Electrical Engineering  {% endblock %}
+
+{% block ref_textbks %} {% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/ELE2212" id="other_course_unit-linkbutton" class="link-item btn--pink">ELE2212-Electrical Energy Systems {% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/TEC2202" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">TEC2202-Technology,Ethics & Human Rights{% endblock courseunit_link_2 %}
+        
+    

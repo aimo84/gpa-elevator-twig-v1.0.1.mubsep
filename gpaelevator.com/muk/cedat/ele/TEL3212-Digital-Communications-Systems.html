@@ -1,0 +1,15 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+TEL3212-Digital Communications Systems
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/TEL3212">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %} {{ block('coursecode') }}:Digital Communications Systems{% endblock %}
+{% block coursecode %}TEL3212{% endblock %}
+{% block courseName %} Bachelor Of Science In Electrical Engineering  {% endblock %}
+
+{% block ref_textbks %} {% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/TEL3217" id="other_course_unit-linkbutton" class="link-item btn--pink">TEL3217-Systems Engineering {% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/EMT3201" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">EMT3201-Engineering Mathematics VI{% endblock courseunit_link_2 %}

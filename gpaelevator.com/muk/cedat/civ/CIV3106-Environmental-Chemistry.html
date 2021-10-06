@@ -1,0 +1,15 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+CIV3106-Environmental Chemistry
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/CIV3106">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %} {{ block('coursecode') }}:Environmental chemistry{% endblock %}
+{% block coursecode %}CIV3106{% endblock %}
+{% block courseName %} Bachelor Of Science In Civil Engineering  {% endblock %}
+
+{% block ref_textbks %} {% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/CIV3107" id="other_course_unit-linkbutton" class="link-item btn--pink">CIV3107-Principles Of Quantity Surveying {% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/CIV3101" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">CIV3101-Organizational Theory for Engineering {% endblock courseunit_link_2 %}

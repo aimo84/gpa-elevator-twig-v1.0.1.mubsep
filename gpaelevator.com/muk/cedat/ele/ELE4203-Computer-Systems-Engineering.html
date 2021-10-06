@@ -1,0 +1,15 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+ELE4203-Computer Systems Engineering
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/ELE4203">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %} {{ block('coursecode') }}:Computer Systems Engineering{% endblock %}
+{% block coursecode %}ELE4203{% endblock %}
+{% block courseName %} Bachelor Of Science In Electrical Engineering  {% endblock %}
+
+{% block ref_textbks %} {% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/ELE4206" id="other_course_unit-linkbutton" class="link-item btn--pink">ELE4206-Intergrated Circuits Design & Fabrication{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/ELE4210" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">ELE4210-Electrical Installation Design{% endblock courseunit_link_2 %}

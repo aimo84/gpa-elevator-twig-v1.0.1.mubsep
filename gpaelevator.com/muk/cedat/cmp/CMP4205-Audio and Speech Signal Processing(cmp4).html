@@ -1,0 +1,30 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+
+{% block col_title %}
+CMP4205-Audio and Speech Signal Processing
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/CMP4205">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %} CMP4205:Audio and Speech Signal Processing{% endblock %}
+
+{% block courseName %} Bachelor Of Science In Computer Engineering  {% endblock %}
+{% block coursecode %}CMP4205{% endblock %}
+
+{% block lectureNotice %} 
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year4/sem2/CMP4205-Audio_and_Speech_Signal_Processing/Lecture_notes/Lecture 1 - Introduction.pdf">{{ block('pdf_icon') }}Introduction</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year4/sem2/CMP4205-Audio_and_Speech_Signal_Processing/Lecture_notes/Lecture 2 - Sound and How we Hear.pdf">{{ block('pdf_icon') }}Sound and How we Hear</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year4/sem2/CMP4205-Audio_and_Speech_Signal_Processing/Lecture_notes/CMP4205 - Group Project - 2017.2018.pdf">{{ block('pdf_icon') }}Group Project(2017)</a></i></b></li>
+<i>Audio Lectures</i>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year4/sem2/CMP4205-Audio_and_Speech_Signal_Processing/Lecture_notes/Lecture 4 - Speech Analysis.mp4"><i class="pdf fas fa-play-circle"></i>Speech Analysis</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year4/sem2/CMP4205-Audio_and_Speech_Signal_Processing/Lecture_notes/Lecture 6 - Audio Compression.mp4"><i class="pdf fas fa-play-circle"></i>Audio Compression</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year4/sem2/CMP4205-Audio_and_Speech_Signal_Processing/Lecture_notes/Lecture 7 - Speech Synthesis.mp4"><i class="pdf fas fa-play-circle"></i>Speech Synthesis</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year4/sem2/CMP4205-Audio_and_Speech_Signal_Processing/Lecture_notes/Lecture 8 - Advances in Audio Processing.mp4"><i class="pdf fas fa-play-circle"></i>Advances in Audio Processing</a></i></b></li>
+{% endblock %}
+{% block extra_lecture_notes %}
+{% endblock %}
+{% block ref_textbks %}
+{% endblock %}
+
+{% block courseunit_link_1 %}<a href="CMP4202" id="other_course_unit-linkbutton" class="link-item btn--pink">CMP4202-VLSI Systems Design  {% endblock courseunit_link_1 %} 
+{% block courseunit_link_2 %}<a href="TEC4201" id="other_course_unit-linkbutton" class="link-item btn--pink">TEC4201- Entrepreneurship  {% endblock  %} 

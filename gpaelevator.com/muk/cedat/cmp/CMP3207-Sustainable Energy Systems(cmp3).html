@@ -1,0 +1,32 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+
+{% block col_title %}
+CMP3207-Sustainable Energy Systems
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/CMP3207">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %}CMP3207:Sustainable Energy Systems {% endblock %}
+
+{% block lectureNotice %} 
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3207-Sustainable Energy Systems/Lecture_notes/Energy trends lecture 1.pdf">{{ block('pdf_icon') }}Energy trends</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3207-Sustainable Energy Systems/Lecture_notes/Wind Energy Lecture 2.pdf">{{ block('pdf_icon') }}Wind Energy</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3207-Sustainable Energy Systems/Lecture_notes/Biomass Energy - lecture 2.pdf">{{ block('pdf_icon') }}Biomass Energy </a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3207-Sustainable Energy Systems/Lecture_notes/Nuclear Energy Notes.pdf">{{ block('pdf_icon') }}Nuclear Energy</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3207-Sustainable Energy Systems/Lecture_notes/Geothermal energy.pdf">{{ block('pdf_icon') }}Geothermal energy</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3207-Sustainable Energy Systems/Lecture_notes/Ocean Energy.pdf">{{ block('pdf_icon') }}Ocean Energy</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3207-Sustainable Energy Systems/Lecture_notes/Solar Energy Notes - LDNK.pdf">{{ block('pdf_icon') }}Solar Energy Notes</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3207-Sustainable Energy Systems/Lecture_notes/solar PV_1.pdf">{{ block('pdf_icon') }}Solar Photovoltaics 01</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3207-Sustainable Energy Systems/Lecture_notes/Solar PV_2.pdf">{{ block('pdf_icon') }}Solar Photovoltaics 02</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3207-Sustainable Energy Systems/Lecture_notes/Solar PV_3.pdf">{{ block('pdf_icon') }}Solar Photovoltaics 03</a></i></b></li>
+{% endblock %}
+{% block extra_lecture_notes %}
+{% endblock %}
+{% block ref_textbks %}
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3207-Sustainable Energy Systems/Reference_books/Renewable_Energy_Resources_2nd_Ed._-_John_Twidell_and_Tony_Weir.pdf">{{ block('bk_icon') }}Renewable Energy Resources 2nd Ed.-John Twidell and Tony Weir</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3207-Sustainable Energy Systems/Reference_books/wind_energy_explained.pdf">{{ block('bk_icon') }}wind energy explained-J.F. Manwell, J.G. McGowan and A.L. Rogers</a></i></b></li>
+{% endblock %}
+{% block coursecode %} CMP3207{% endblock %}
+
+{% block courseunit_link_1 %}<a href="CMP3201" id="other_course_unit-linkbutton" class="link-item btn--pink">CMP3204-Distribute IS {% endblock courseunit_link_1 %} 
+    {% block courseunit_link_2 %}<a href="CMP3202" id="other_course_unit-linkbutton" class="link-item btn--pink">CMP3202-HCI {% endblock  %} 

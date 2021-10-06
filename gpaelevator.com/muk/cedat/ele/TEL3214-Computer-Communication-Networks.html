@@ -1,0 +1,15 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+TEL3214-Computer Communication Networks
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/TEL3214">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %} {{ block('coursecode') }}:Computer Communication Networks{% endblock %}
+{% block coursecode %}TEL3214{% endblock %}
+{% block courseName %} Bachelor Of Science In Electrical Engineering  {% endblock %}
+
+{% block ref_textbks %} {% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/ELE3216" id="other_course_unit-linkbutton" class="link-item btn--pink">ELE3216-Energy Conversion And Generation {% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/EMT3201" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">EMT3201-Engineering Mathematics VI{% endblock courseunit_link_2 %}

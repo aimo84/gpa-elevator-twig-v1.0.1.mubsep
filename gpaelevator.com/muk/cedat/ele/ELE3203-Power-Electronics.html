@@ -1,0 +1,15 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+ELE3203-Power Electronics
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/ELE3203">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %} {{ block('coursecode') }}:Power Electronics{% endblock %}
+{% block coursecode %}ELE3203{% endblock %}
+{% block courseName %} Bachelor Of Science In Electrical Engineering  {% endblock %}
+
+{% block ref_textbks %} {% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/TEL3214" id="other_course_unit-linkbutton" class="link-item btn--pink">TEL3214-Computer Communication Networks{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/ELE3211" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">ELE3211-Industrial Electronics{% endblock courseunit_link_2 %}

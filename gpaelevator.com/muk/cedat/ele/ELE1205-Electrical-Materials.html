@@ -1,0 +1,33 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+{% block col_title %}
+ELE1205-Electrical Materials
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/ELE1205">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %} {{ block('coursecode') }}:Electrical Materials{% endblock %}
+{% block coursecode %}ELE1205{% endblock %}
+{% block courseName %} Bachelor Of Science In Electrical Engineering  {% endblock %}
+
+{% block lectureNotice %}
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/electrical_eng/year1/sem2/Electrical_materials/Lecture_notes/.pdf">{{ block('pdf_icon') }}Lecture 1 </a></i></b></li> 
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/electrical_eng/year1/sem2/Electrical_materials/Lecture_notes/lecture2.pdf">{{ block('pdf_icon') }}Lecture 2 </a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/electrical_eng/year1/sem2/Electrical_materials/Lecture_notes/lecture3.pdf">{{ block('pdf_icon') }}Lecture 3 </a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/electrical_eng/year1/sem2/Electrical_materials/Lecture_notes/lecture4.pdf">{{ block('pdf_icon') }}Lecture 4</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/electrical_eng/year1/sem2/Electrical_materials/Lecture_notes/lecture5.pdf">{{ block('pdf_icon') }}Lecture 5 </a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/electrical_eng/year1/sem2/Electrical_materials/Lecture_notes/lecture6.pdf">{{ block('pdf_icon') }}Lecture 6</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/electrical_eng/year1/sem2/Electrical_materials/Lecture_notes/lecture7.pdf">{{ block('pdf_icon') }}Lecture 7</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/electrical_eng/year1/sem2/Electrical_materials/Lecture_notes/lecture8.pdf">{{ block('pdf_icon') }}Lecture 8 </a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/electrical_eng/year1/sem2/Electrical_materials/Lecture_notes/lecture8.pdf">{{ block('pdf_icon') }}Lecture 9 </a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/electrical_eng/year1/sem2/Electrical_materials/Lecture_notes/lecture10.pdf">{{ block('pdf_icon') }}Lecture 10 </a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/electrical_eng/year1/sem2/Electrical_materials/Lecture_notes/lecture11.pdf">{{ block('pdf_icon') }}Lecture 11</a></i></b></li>
+{% endblock lectureNotice %}
+{% block extra_lecture_notes %}{% endblock %}
+
+{% block ref_textbks %}
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/electrical_eng/year1/sem2/Electrical_materials/Reference_books/[L._Solymar,_D._Walsh]_Electrical_properties_of_ma(b-ok.org).pdf">{{ block('bk_icon') }}Electrical properties of Materials[L.Solymar,D.Walsh]</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/electrical_eng/year1/sem2/Electrical_materials/Reference_books/PrinciplesofElectronicMaterialsandDevicesThirdEditionS.O.KasapMcGraw-Hill2005(1).pdf">{{ block('bk_icon') }}Principles of Electronic Materials and Devices 3rd Edition S.O.Kasap McGraw-Hill 2005</a></i></b></li>
+{% endblock ref_textbks %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/TEC1202" id="other_course_unit-linkbutton" class="link-item btn--pink">TEC1202-Introduction To Sociology {% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/ELE1204" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">ELE1204-Statics & Dynamics{% endblock courseunit_link_2 %}
+    

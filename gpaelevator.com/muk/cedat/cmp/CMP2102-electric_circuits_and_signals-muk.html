@@ -1,0 +1,66 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+CMP2102-Electric circuits and signals
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block COurse_unit_name %}<a href="http://localhost/cedat/CMP2102">{{ block('coursecode') }} {% endblock %}
+
+{% block courseunit %} CMP2102:ELECTRIC CIRCUITS & SIGNALS  {% endblock %}
+
+{% block lectureNotice %}
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/Electrical_circuits_and_signals/Lecture_notes/Chapter 1-Basic Concepts.pdf ">{{ block('pdf_icon') }}Chapter 1-Basic Concepts</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/Electrical_circuits_and_signals/Lecture_notes/Chapter 2-Resistive Circuits.pdf">{{ block('pdf_icon') }}Chapter 2-Resistive Circuits</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/Electrical_circuits_and_signals/Lecture_notes/Chapter 3-Nodal and Loop Analysis.pdf">{{ block('pdf_icon') }}Chapter 3-Nodal and Loop Analysis</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/Electrical_circuits_and_signals/Lecture_notes/Chapter 4-Aditional analysis techniques.pdf">{{ block('pdf_icon') }}Chapter 4-Aditional analysis techniques</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/Electrical_circuits_and_signals/Lecture_notes/Chapter 5-Capacitance and Inductance.pdf">{{ block('pdf_icon') }}Chapter 5-Capacitance and Inductance</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/Electrical_circuits_and_signals/Lecture_notes/Chapter 6-1st and 2nd order transient analysis.pdf">{{ block('pdf_icon') }}Chapter 6-1st and 2nd order transient analysis</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/Electrical_circuits_and_signals/Lecture_notes/Chapter 7-ac steady state analyis.pdf">{{ block('pdf_icon') }}Chapter 7-ac steady state analyis</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/Electrical_circuits_and_signals/Lecture_notes/Chapter 8-power in ac.pdf">{{ block('pdf_icon') }}Chapter 8-power in ac</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/Electrical_circuits_and_signals/Lecture_notes/Chapter 9-two port networks.pdf">{{ block('pdf_icon') }}Chapter 9-two port networks</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/Electrical_circuits_and_signals/Lecture_notes/Chapter 10-Frequency Characteristics of AC Circuits.pdf">{{ block('pdf_icon') }}Chapter 10-Frequency Characteristics of AC Circuits</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/Electrical_circuits_and_signals/Lecture_notes/Chapter One-Signals and Systems (2017_05_04 16_30_52 UTC).pdf">{{ block('pdf_icon') }}Chapter 11-Signals and Systems</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/Electrical_circuits_and_signals/Lecture_notes/CMP 2102-Peer Review assignment-v2.pdf ">{{ block('pdf_icon') }}CMP 2102-Peer Review assignment-v2</a></i></b></li>
+{% endblock %}
+{% block extra_lecture_notes %}{% endblock %}
+
+{% block ref_textbks %}  
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/Electrical_circuits_and_signals/Reference_books/Fundamentals of Electric Circuits (3 ed Alexander, Sadiku).pdf">{{ block('bk_icon') }}Fundamentals of Electric Circuits (3 ed Alexander, Sadiku)</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/Electrical_circuits_and_signals/Reference_books/Introduction_to_Electric_Circuits_9TH_Ed.pdf">{{ block('bk_icon') }}Introduction to Electric Circuits 9TH Ed</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem1/Electrical_circuits_and_signals/Reference_books/Tocci, Widmer, Moss - Digital Systems - Principles and Applications 10 Ed (2007).pdf">{{ block('bk_icon') }}Digital Systems - Principles and Applications 10 Ed (2007)-Tocci, Widmer, Moss</a></i></b></li>
+{% endblock %}
+{% block coursecode %} CMP2102{% endblock %}
+
+ {% block youtube_links %} 
+ <li> <a href="https://www.youtube.com/watch?v=qlH4-oHnBb8">Resistive Circuit</a></li>
+ <li><a href="https://www.youtube.com/watch?v=eQgRDdBD5Os&t=278s">Active Circuit</a></li>
+ <li><a href="https://www.youtube.com/watch?v=HEjPop-aK_w">Conductance</a></li>
+ <li><a href="https://www.youtube.com/watch?v=wTcxRObq738">Delta <---> Y transformation </a></li>
+ <li><a href="https://www.youtube.com/watch?v=kJa5uOYKMqc">Signal processing</a></li>
+ <li><a href="https://www.youtube.com/watch?v=e8fYVxwnSOE">Capacitive Circuits</a></li>
+ <li><a href="#">Power in Ac</a></li>
+ <li><a href="#">Nodal Analysis</a></li>
+ <li><a href="#">Mesh /loop Analysis</a></li>
+ <li><a href="#">Frequency Characteristics of a  Circuit</a></li>
+ {% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/CMP2103" id="other_course_unit-linkbutton" class="link-item btn--pink">CMP2103-Object Oriented Programming{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/CMP2101" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">CMP2102-Software Engineering {% endblock courseunit_link_2 %}
+    
+ {% block discus_std_1_profile_pic %}<img src="../img/abe-grad.jpg" id="img-law" alt="student's profile picture">  {% endblock %}
+
+{% block discus_std_1_name %}  Nkinzi Sharmaria{% endblock %}
+
+{% block discus_std_1_topic %} Conductance & loop Analysis{% endblock %}
+
+{% block discus_std_1_contact %} 0700744425/0778451024 {% endblock %}
+
+{% block discus_std_1_email %}nkinzisharma@gmail.com{% endblock %}
+
+{% block discus_std_1_name_bk %}  Nkinzi Sharmaria   {% endblock %}
+
+{% block discus_std_1_univ %}  Kyambogo  {% endblock %}
+
+{% block discus_std_1_col %}     Faculty Of Science {% endblock %}
+
+{% block discus_std_1_course %}  Bs.Electrical Engineering   {% endblock %}

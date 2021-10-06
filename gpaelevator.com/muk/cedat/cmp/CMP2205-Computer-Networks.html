@@ -1,0 +1,38 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+
+{% block col_title %}
+CMP2205-Computer Networks
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/CMP2205">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %}CMP2205:Computer Networks {% endblock %}
+{% block coursecode %} CMP2205{% endblock %}
+
+{% block lectureNotice %} 
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2205-Comp_Networks/Lecture_notes/Lec01.pdf">{{ block('pdf_icon') }}Lecture 1</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2205-Comp_Networks/Lecture_notes/Lec02.pdf">{{ block('pdf_icon') }}Lecture 2</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2205-Comp_Networks/Lecture_notes/Lec03CMP2205.pdf">{{ block('pdf_icon') }}Lecture 3</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2205-Comp_Networks/Lecture_notes/Lec04CMP2205.pdf">{{ block('pdf_icon') }}Lecture 4</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2205-Comp_Networks/Lecture_notes/Lec05CMP2205.pdf">{{ block('pdf_icon') }}Lecture 5</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2205-Comp_Networks/Lecture_notes/Lec06CMP2205.pdf">{{ block('pdf_icon') }}Lecture 6</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2205-Comp_Networks/Lecture_notes/lec02.pdf">{{ block('pdf_icon') }}Lecture 7</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2205-Comp_Networks/Lecture_notes/Lec2.pdf">{{ block('pdf_icon') }}Lecture 8</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2205-Comp_Networks/Lecture_notes/computer networks.pdf">{{ block('pdf_icon') }}Computer Networks</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2205-Comp_Networks/Lecture_notes/02-layering.pdf">{{ block('pdf_icon') }}layering</a></i></b></li>
+{% endblock %}
+{% block extra_lecture_notes %}{% endblock %}
+
+{% block ref_textbks %}    
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2205-Comp_Networks/Reference_books/Computer_Networks_5th_Edition_Andrew_S_T.pdf">{{ block('bk_icon') }}Computer Networks 5th Edition Andrew</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2205-Comp_Networks/Reference_books/Computer-Networks---A-Tanenbaum---5th-edition.pdf">{{ block('bk_icon') }}Computer Networks A Tanenbaum 5th edition</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2205-Comp_Networks/Reference_books/networking.pdf">{{ block('bk_icon') }}Networking</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2205-Comp_Networks/Reference_books/Networking_A_Beginner_s_Guide.pdf">{{ block('bk_icon') }}Networking A Beginner's Guide</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2205-Comp_Networks/Reference_books/Sybex.Networking.Foundations.Aug.2004.eBook-DDU.pdf">{{ block('bk_icon') }}Sybex Networking Foundations Aug 2004 eBook-DDU</a></i></b></li>
+{% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/CMP2203" id="other_course_unit-linkbutton" class="link-item btn--pink">CMP2203-Digital Logic{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/CMP2204" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">CMP2204-Operating Sys. {% endblock courseunit_link_2 %}
+    
+
+

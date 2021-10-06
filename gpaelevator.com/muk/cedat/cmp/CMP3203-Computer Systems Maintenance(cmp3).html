@@ -1,0 +1,37 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+
+{% block col_title %}
+CMP3203-Computer Systems Maintenance
+{% endblock %}
+{% block coursecode %} CMP3203{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/CMP3203">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %}CMP3203:Computer Systems Maintenance {% endblock %}
+
+{% block lectureNotice %} 
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3203-Computer_Systems_Maintenance/Lecture_notes/Lecture 1 - Introduction.pdf">{{ block('pdf_icon') }}Introduction</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3203-Computer_Systems_Maintenance/Lecture_notes/Lecture 2 - Basic Concepts.pdf">{{ block('pdf_icon') }}Basic Concepts</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3203-Computer_Systems_Maintenance/Lecture_notes/Lecture 3 - Assembly And Installation Of A Computer.pdf">{{ block('pdf_icon') }}Assembly And Installation Of A Computer</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3203-Computer_Systems_Maintenance/Lecture_notes/Lecture 4 - Principles Of Networking.pdf">{{ block('pdf_icon') }}Principles Of Networking</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3203-Computer_Systems_Maintenance/Lecture_notes/Lecture 5 - Operating System.pdf">{{ block('pdf_icon') }}Operating System</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3203-Computer_Systems_Maintenance/Lecture_notes/Lecture 6 -Safety Lab Procedures And Tools.pdf">{{ block('pdf_icon') }}Safety Lab Procedures And Tools</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3203-Computer_Systems_Maintenance/Lecture_notes/Lecture 7 -Security.pdf">{{ block('pdf_icon') }}Security</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3203-Computer_Systems_Maintenance/Lecture_notes/Lecture -8Troubleshooting.pdf">{{ block('pdf_icon') }}Troubleshooting</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3203-Computer_Systems_Maintenance/Lecture_notes/CMP 3203_Computer Systems Maintenance_Motherboards.pdf">{{ block('pdf_icon') }}Computer Systems Maintenance Motherboards-01</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3203-Computer_Systems_Maintenance/Lecture_notes/CMP 3203_Computer Systems Maintenance_Motherboards 2.pdf">{{ block('pdf_icon') }}Computer Systems Maintenance Motherboards-02</a></i></b></li>
+{% endblock %}
+{% block extra_lecture_notes %}{% endblock %}
+
+{% block exam_list_6 %}
+<li class="pastpaper"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3203-Computer_Systems_Maintenance/Past_papers/Maintenance CAT I 2014.pdf">CMP3203-Continous Assessment Test I</a></i></b></li>
+<li class="pastpaper"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3203-Computer_Systems_Maintenance/Past_papers/Maintenance CAT 2 2014.pdf">CMP3203-Continous Assessment Test II</a></i></b></li>
+<li class="pastpaper"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3203-Computer_Systems_Maintenance/Past_papers/Maintenance Exam 20132014_11(1).pdf">CMP3203-Final Semester Exam</a></i></b></li>
+{% endblock %}
+{% block ref_textbks %} {% endblock %}
+{% block papers_before_14 %}
+<li class="pastpaper"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3203-Computer_Systems_Maintenance/Past_papers/Maintenance CAT.pdf">CMP3203-Examination Questions</a></i></b></li>
+{% endblock %}
+
+{% block courseunit_link_2 %}<a href="http://localhost/cedat/CMP3204" id="other_course_unit-linkbutton" class="link-item btn--pink">CMP3204-Distributed Information Systems{% endblock  %} 
+{% block courseunit_link_1 %}<a href="http://localhost/cedat/CMP3205" id="other_course_unit-linkbutton" class="link-item btn--pink">CMP3205-Intelligent Systems {% endblock courseunit_link_1 %} 

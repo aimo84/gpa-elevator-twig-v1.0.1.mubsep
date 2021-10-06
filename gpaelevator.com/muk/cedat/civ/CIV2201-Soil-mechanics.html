@@ -1,0 +1,67 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+CIV2201-Soil Mechancs
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/CIV2201">{{ block('coursecode') }} {% endblock %}
+{% block coursecode %} CIV2201{% endblock %}
+{% block courseName %} Bachelor of Science In Civil Engineering {% endblock %}
+{% block courseunit %}{{ block('coursecode') }}:Soil mechanics{% endblock %}
+
+{% block lectureNotice %}
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Soil_Mechanics/Lecture_notes/Chapter 1, 2-Introduction, Physical properties & Soil Classification.pdf">{{ block('pdf_icon') }}Introduction, Physical properties & Soil Classification</a></i></b></li> 
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Soil_Mechanics/Lecture_notes/Chapter 2 (Cont)-Physical Properties and Soil Classification.pdf">{{ block('pdf_icon') }}Physical Properties and Soil Classification(con't)</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Soil_Mechanics/Lecture_notes/Chapter 3, 4, 5-Compaction, Hydraulics, Stresses.pdf">{{ block('pdf_icon') }}Compaction, Hydraulics, Stresses</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Soil_Mechanics/Lecture_notes/Chapter 6-Lateral earth pressures.pdf">{{ block('pdf_icon') }}Lateral earth pressures</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Soil_Mechanics/Lecture_notes/Chapter 7-Consolidation.pdf">{{ block('pdf_icon') }}Consolidation</a></i></b></li>
+{% endblock lectureNotice %}
+
+{% block hidden_lecture_notes %}
+From Another Year
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Soil_Mechanics/Lecture_notes/CIV2201 SOIL MECHANICS 1-3-1.pdf">{{ block('pdf_icon') }}Lecture 1</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Soil_Mechanics/Lecture_notes/CIV2201 SOIL MECHANICS 4.pdf">{{ block('pdf_icon') }}Lecture 2</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Soil_Mechanics/Lecture_notes/CIV2201 SOIL MECHANICS 5.pdf">{{ block('pdf_icon') }}Lecture 3</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Soil_Mechanics/Lecture_notes/CIV2201 SOIL MECHANICS 7.pdf">{{ block('pdf_icon') }}Lecture 4</a></i></b></li>
+{% endblock %}
+
+{% block ref_textbk_1_link %}
+<a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Soil_Mechanics/Reference_books/A. Aysen - Soil Mechanics Basic Concepts and Engineering Applications.pdf">
+{% endblock %}
+{% block ref_textbk_1_title %}
+A.Aysen-Soil Mechanics Basic Concepts and Engineering Applications
+{% endblock %}
+{% block ref_textbk_2_link %}
+<a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Soil_Mechanics/Reference_books/V. N. S. Murthy-Geotechnical Enginering (Principles and Practices of Soil Mechanics and Foundation Engineering).pdf">
+{% endblock %}
+{% block ref_textbk_2_title %}
+V.N.S.Murthy-Geotechnical Enginering (Principles and Practices of Soil Mechanics and Foundation Engineering)
+{% endblock %}
+{% block ref_textbk_3_link %}
+<a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Soil_Mechanics/Reference_books/Craig's Soil Mechanics Solution Manual-7th Edition.pdf">
+{% endblock %}
+{% block ref_textbk_4_title %}
+Craig's Soil Mechanics Solution Manual-7th Edition
+{% endblock %}
+{% block ref_textbk_4_link %}
+<a href="http://localhost/pdf/muk/civil_eng/year2/sem2/Soil_Mechanics/Reference_books/Basic Soil Mechanics by R.Whitlow.pdf">
+{% endblock %}
+{% block ref_textbk_3_title %}
+Basic Soil Mechanics by R.Whitlow
+{% endblock %}
+{% block ref_textbk_5 %}{% endblock %}
+{% block ref_textbk_6 %}{% endblock %}
+
+
+{% block youtube_links %}
+<li> <a href="#" >Torsion</a></li>
+<li><a href="#">Axial loading</a></li>
+<li><a href="#">Shearing stresses </a></li>
+<li><a href="#">Beams</a></li>
+<li><a href="#">Stress transformations</a></li>
+{% endblock youtube_links %}
+
+
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/CIV2202" id="other_course_unit-linkbutton" class="link-item btn--pink">CIV2202-Structure II{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/CIV2203" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">CIV2203-Engineering Mat. {% endblock courseunit_link_2 %}

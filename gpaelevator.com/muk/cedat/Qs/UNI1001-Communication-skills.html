@@ -1,0 +1,40 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+
+{% block col_title %}
+UNI1001-Communication Skills
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/UNI1001">{{ block('coursecode') }} {% endblock %}
+{% block coursecode %} UNI1001{% endblock %}
+{% block courseunit %}{{ block('coursecode') }}:Communication Skills {% endblock %}
+{% block courseName %} Bachelor Of Science In Quantity Surveying, Computer, Electrical, Biomedical & Telecommunication engineering{% endblock %}
+
+{% block lectureNotice %} 
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem1/UNI1001-Communication-skills/Lecture_notes/CSK_1101_Course_Outline.pdf">{{ block('pdf_icon') }}course content</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem1/UNI1001-Communication-skills/Lecture_notes/Introduction to Communication Skills.pdf">{{ block('pdf_icon') }}Introduction</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem1/UNI1001-Communication-skills/Lecture_notes/WRITING SKILLS.pdf">{{ block('pdf_icon') }}Writing Skills</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem1/UNI1001-Communication-skills/Lecture_notes/TRADITIONAL ESSAY WRITING.pdf">{{ block('pdf_icon') }}Traditional Essay Writing</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem1/UNI1001-Communication-skills/Lecture_notes/Principles of writing.pdf">{{ block('pdf_icon') }}Principles of Writing</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem1/UNI1001-Communication-skills/Lecture_notes/LISTENING AS A COMMUNICATION SKILL.pdf">{{ block('pdf_icon') }}Listening as a Skill</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem1/UNI1001-Communication-skills/Lecture_notes/REPORT WRITING.pdf">{{ block('pdf_icon') }}Report Writing</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem1/UNI1001-Communication-skills/Lecture_notes/READING-last topic.pdf">{{ block('pdf_icon') }}Reading</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem1/UNI1001-Communication-skills/Lecture_notes/NON VERBAL COMMUNICATION.pdf">{{ block('pdf_icon') }}Non Verbal Communication</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem1/UNI1001-Communication-skills/Lecture_notes/PERCEPTION.pdf">{{ block('pdf_icon') }}Perception</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem1/UNI1001-Communication-skills/Lecture_notes/Lecture 9.pdf">{{ block('pdf_icon') }}Lecture 9</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem1/UNI1001-Communication-skills/Lecture_notes/Lecture10.pdf">{{ block('pdf_icon') }}Lecture 10</a></i></b></li>
+{% endblock %}
+{% block hidden_lecture_notes %}
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/UNI1001-Communication-skills/Lecture_notes/Lecture11.pdf">{{ block('pdf_icon') }}Lecture 11</a></i></b></li>
+{% endblock %}
+{% block ref_textbks %}    
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/UNI1001-Communication-skills/Reference_books/fundamentals-of-digital-logic-with-vhdl-design-stephen-brown-3rd-ed.pdf">{{ block('bk_icon') }}Fundamentals of digital logic with vhdl design stephen brown 3rd ed</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/UNI1001-Communication-skills/Reference_books/Wiley - Digital Electronics - Principles, Devices and Applications (2007).pdf">{{ block('bk_icon') }}Wiley - Digital Electronics - Principles, Devices and Applications</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/UNI1001-Communication-skills/Reference_books/Crowe - Introduction to Digital Electronics.pdf">{{ block('bk_icon') }}Crowe - Introduction to Digital Electronics</a></i></b></li>
+{% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/CSC1101" id="other_course_unit-linkbutton" class="link-item btn--pink">CSC1101- Computer Litracy {% endblock courseunit_link_1 %} 
+{% block courseunit_link_2 %}<a href="http://localhost/cedat/EMT1101" id="other_course_unit-linkbutton" class="btn btn-sm btn--lightgreen">EMT1101-Engineering Mathematics I {% endblock %}
+
+     
+            

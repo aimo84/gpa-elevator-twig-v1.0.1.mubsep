@@ -1,0 +1,18 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+ELE2112-Electromagnetics
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/ELE2112">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %} {{ block('coursecode') }}:Electromagnetics{% endblock %}
+
+{% block coursecode %}ELE2112{% endblock %}
+{% block courseName %} Bachelor Of Science In Electrical Engineering  {% endblock %}
+
+
+{% block ref_textbks %} {% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/EMT2101" id="other_course_unit-linkbutton" class="link-item btn--pink">EMT2101-Engineering Mathematics III{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/CMP2103" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">CMP2103-Object Oriented Programming{% endblock courseunit_link_2 %}
+    

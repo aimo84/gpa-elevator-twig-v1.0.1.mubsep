@@ -1,0 +1,72 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+CIV1202-Fluid Mechanics
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/CIV1202">{{ block('coursecode') }} {% endblock %}
+{% block coursecode %} CIV1202{% endblock %}
+{% block courseName %} Bachelor of Science In Civil Engineering {% endblock %}
+{% block courseunit %}{{ block('coursecode') }}:Fluid Mechanics{% endblock %}
+
+{% block lectureNotice %}
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Fluid_mechanics/Lecture_notes/Fluid Mechanics Course Outline-Sem II - 2012-2013.pdf">{{ block('pdf_icon') }}Course outline</a></i></b></li> 
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Fluid_mechanics/Lecture_notes/fluid mechanics Lecture notes.pdf">{{ block('pdf_icon') }}Lecture notes</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Fluid_mechanics/Lecture_notes/fluid dynamics.pdf">{{ block('pdf_icon') }}Fluid dynamics</a></i></b></li>
+{% endblock lectureNotice %}
+
+{% block hidden_lecture_notes %}
+University of Leads Notes
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Fluid_mechanics/Lecture_notes/Fluid mechanics-Lecture notes.pdf">{{ block('pdf_icon') }}Lecture notes </a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Fluid_mechanics/Lecture_notes/principles.pdf"> {{ block('pdf_icon') }}Principles</a></i></b></li>
+{% endblock %}
+
+{% block ref_textbk_1_link %}
+<a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Fluid_mechanics/Reference_books/Potter Mechanics of Fluids 4th txtbk.pdf">
+{% endblock %}
+{% block ref_textbk_1_title %}
+Potter Mechanics of Fluids 4th txtbk
+{% endblock %}
+{% block ref_textbk_2_link %}
+<a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Fluid_mechanics/Reference_books/White_-_Fluid_mechanics__4th_edition[1].pdf">
+{% endblock %}
+{% block ref_textbk_2_title %}
+White-Fluid mechanics 4th_edition
+{% endblock %}
+{% block ref_textbk_3_link %}
+<a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Fluid_mechanics/Reference_books/Mechanics Of Real Fluids (2011) By M. Rahman.pdf">
+{% endblock %}
+{% block ref_textbk_3_title %}
+Mechanics Of Real Fluids (2011) By M. Rahman
+{% endblock %}
+{% block ref_textbk_4_link %}
+<a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Fluid_mechanics/Reference_books/2,500 Solved Problems In Fluid Mechanics and Hydraulics - (Malestrom).pdf">
+{% endblock %}
+{% block ref_textbk_4_title %}
+2,500 Solved Problems In Fluid Mechanics and Hydraulics -(Malestrom)
+{% endblock %}
+
+{% block ref_textbk_5 %}{% endblock %}
+{% block ref_textbk_6 %}{% endblock %}
+
+{% block exam_list_1 %}
+<li class="pastpaper"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Fluid_mechanics/Past_papers/Fluid Mechanics - Assignment  I-2012-2013.pdf">CIV1202-Assignment 1</a></i></b></li>
+<li class="pastpaper"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Fluid_mechanics/Past_papers/Fluid Mechanics Past Papers.pdf">CIV1201-Compiled Past Papers</a></i></b></li>
+<li class="pastpaper"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Fluid_mechanics/Past_papers/#.pdf">CIV1201-Continous Assessment Test II</a></i></b></li>
+<li class="pastpaper"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Fluid_mechanics/Past_papers/#.pdf">CIV1201-Final Semester Exam</a></i></b></li>
+{% endblock exam_list_1 %}
+
+{% block youtube_links %}
+<li> <a href="#" >Torsion</a></li>
+<li><a href="#">Axial loading</a></li>
+<li><a href="#">Shearing stresses </a></li>
+<li><a href="#">Beams</a></li>
+<li><a href="#">Stress transformations</a></li>
+{% endblock youtube_links %}
+
+{% block papers_before_14 %}
+<li class="pastpaper"><b><i>{% block paper_1_2013_link %}<a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Fluid_mechanics/Past_papers/Fluid Mechanics Past Papers.pdf">{% endblock %}Examination Questions</a></i></b></li>
+{% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/CIV1201" id="other_course_unit-linkbutton" class="link-item btn--pink">CIV1201-Strength of Materials{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/CIV1203" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">CIV1203-Electrical Engineering {% endblock courseunit_link_2 %}

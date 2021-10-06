@@ -1,0 +1,39 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+
+{% block col_title %}
+CMP2202-Analysis and Design Of Algorithms
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/CMP2202">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %}CMP2202:Analysis and Design Of Algorithms {% endblock %}
+
+{% block lectureNotice %} 
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2202-Algorithms/Lecture_notes/Lec01CMP2202.pdf">{{ block('pdf_icon') }}Lecture 1</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2202-Algorithms/Lecture_notes/Lec02CMP2202.pdf">{{ block('pdf_icon') }}Lecture 2</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2202-Algorithms/Lecture_notes/Lec03CMP2202.pdf">{{ block('pdf_icon') }}Lecture 3</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2202-Algorithms/Lecture_notes/Lec04CMP2202.pdf">{{ block('pdf_icon') }}Lecture 4</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2202-Algorithms/Lecture_notes/Lec05CMP2202.pdf">{{ block('pdf_icon') }}Lecture 5</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2202-Algorithms/Lecture_notes/lec04-bigOh-recurrence.pdf">{{ block('pdf_icon') }}Lecture 6</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2202-Algorithms/Lecture_notes/lec02.pdf">{{ block('pdf_icon') }}Lecture 7</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2202-Algorithms/Lecture_notes/Lec2.pdf">{{ block('pdf_icon') }}Lecture 8</a></i></b></li>
+{% endblock %}
+{% block extra_lecture_notes %}{% endblock %}
+{% block ref_textbks %}    
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2202-Algorithms/Reference_books/Introduction to the Design and Analysis of Algorithms - FTP Directory  ( PDFDrive.com ).pdf">{{ block('bk_icon') }}Introduction to the Design and Analysis of Algorithms</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2202-Algorithms/Reference_books/[Cormen-AL2011]Introduction_To_Algorithms-A3.pdf">{{ block('bk_icon') }}Introduction To Algorithms</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year2/sem2/CMP2202-Algorithms/Reference_books/Skiena.-.TheAlgorithmDesignManual.pdf">{{ block('bk_icon') }}The Algorithm Design Manual</a></i></b></li>
+{% endblock %}
+{% block coursecode %} CMP2202{% endblock %}
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/CMP2205" id="other_course_unit-linkbutton" class="link-item btn--pink">CMP2205-Computer Networks{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/CMP2203" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">CMP2203-Digital Logic {% endblock courseunit_link_2 %}
+    
+
+{% block youtube_links %}
+<li> <a href="#" >Big Oh</a></li>
+<li><a href="#">Counting Inversions</a></li>
+<li><a href="#">Big Theta</a></li>
+<li><a href="#">Big Omega</a></li>
+<li><a href="#">Validity & Termination</a></li>
+<li><a href="#">Time Efficiency</a></li>
+{% endblock youtube_links %}

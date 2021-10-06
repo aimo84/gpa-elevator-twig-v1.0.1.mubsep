@@ -1,0 +1,13 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+TEC4101-Research Methods
+{% endblock %}
+
+{% block courseunit %} {{ block('coursecode') }}:Research Methods{% endblock %}
+{% block coursecode %}TEC4101{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/TEC4101">{{ block('coursecode') }} {% endblock %}
+    {% block courseName %} Bachelor of Science In Computer, Electrical & Telecommunication engineering{% endblock %}
+{% block ref_textbks %} {% endblock %}
+

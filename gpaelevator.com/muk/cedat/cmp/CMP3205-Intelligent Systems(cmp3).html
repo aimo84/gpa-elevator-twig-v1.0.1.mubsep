@@ -1,0 +1,31 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+
+{% block col_title %}
+CMP3205-Intelligent Systems
+{% endblock %}
+{% block coursecode %} CMP3205{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/CMP3205">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %}CMP3205:Intelligent Systems {% endblock %}
+
+{% block lectureNotice %} 
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3205-Intelligent Systems/Lecture_notes/Topic_1_Overview_of_Intelligent_Systems.pdf">{{ block('pdf_icon') }}Overview of Intelligent Systems</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3205-Intelligent Systems/Lecture_notes/Topic_2A_Expert_Systems.pdf">{{ block('pdf_icon') }}Expert Systems(A)</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3205-Intelligent Systems/Lecture_notes/Topic_2B_Expert_Systems.pdf">{{ block('pdf_icon') }}Expert Systems(B)</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3205-Intelligent Systems/Lecture_notes/Topic_3A_Fuzzy_Systems.pdf">{{ block('pdf_icon') }}Fuzzy Systems(A)</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3205-Intelligent Systems/Lecture_notes/Topic_3B_Fuzzy_Systems.pdf">{{ block('pdf_icon') }}Fuzzy Systems(B)</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3205-Intelligent Systems/Lecture_notes/Topic_4A.pdf">{{ block('pdf_icon') }}Artificial Neural Networks(A)</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3205-Intelligent Systems/Lecture_notes/Topic_4B.pdf">{{ block('pdf_icon') }}Artificial Neural Networks(B)</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3205-Intelligent Systems/Lecture_notes/Lecture_5_Genetic_Algorithms.pdf">{{ block('pdf_icon') }}Genetic Algorithms</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3205-Intelligent Systems/Lecture_notes/Topic_6_Case_Based_Reasoning.pdf">{{ block('pdf_icon') }}Case Based Reasoning</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3205-Intelligent Systems/Lecture_notes/Lecture 08 Intelligent Agents.pdf">{{ block('pdf_icon') }}Intelligent Agents</a></i></b></li>
+{% endblock %}
+{% block extra_lecture_notes %}{% endblock %}
+{% block ref_textbks %}
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/computer_eng/year3/sem2/CMP3205-Intelligent Systems/Reference_books/Artificial Intelligence - A Guide to Intelligent Systems.pdf">{{ block('bk_icon') }}Artificial Intelligence - A Guide to Intelligent Systems</a></i></b></li>
+{% endblock %}
+
+{% block courseunit_link_1 %}<a href="CMP3204" id="other_course_unit-linkbutton" class="link-item btn--pink">CMP3204-Distributed Information System {% endblock courseunit_link_1 %} 
+{% block courseunit_link_2 %}<a href="CMP3202" id="other_course_unit-linkbutton" class="link-item btn--pink">CMP3202-Human Computer Interaction {% endblock  %} 
+

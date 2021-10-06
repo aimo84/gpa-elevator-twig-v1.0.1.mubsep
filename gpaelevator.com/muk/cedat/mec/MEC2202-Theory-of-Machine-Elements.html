@@ -1,0 +1,17 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+MEC2202-Theory of Machine Elements
+{% endblock %}
+
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/MEC2202">{{ block('coursecode') }} {% endblock %}
+
+{% block courseunit %}{{ block('coursecode') }}:Theory of Machine Elements{% endblock %}
+{% block coursecode %}MEC2202{% endblock %}
+{% block courseName %} Bachelor Of Science In Mechanical Engineering  {% endblock %}
+
+{% block ref_textbks %} {% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/MEC2203" id="other_course_unit-linkbutton" class="link-item btn--pink">MEC2203-Computer Programming{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/MEC2204" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">MEC2204-Material Science and Engineering I {% endblock courseunit_link_2 %}

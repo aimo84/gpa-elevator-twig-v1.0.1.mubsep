@@ -1,0 +1,20 @@
+
+{% extends "gpa_elevator/templates/courseunit-template.html" %}
+
+
+{% block col_title %}
+CIV2205-Economics for Civil Engineering 
+{% endblock %}
+{% block coursecode %} CMP2205{% endblock %}
+
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/CIV2205">{{ block('coursecode') }} {% endblock %}
+
+{% block courseunit %}CIV2205:Economics for Civil Engineering{% endblock %}
+
+{% block courseName %} Bachelor Of Science In Civil Engineering  {% endblock %}
+
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/CIV2203" id="other_course_unit-linkbutton" class="link-item btn--pink">CIV2203-Civil Engineering Materals{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/CIV2201" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">CIV2201-Soil Mechanics {% endblock courseunit_link_2 %}
+    

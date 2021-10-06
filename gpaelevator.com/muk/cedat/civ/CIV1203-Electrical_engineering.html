@@ -1,0 +1,61 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+CIV1203-Electrical Engineering
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/CIV1203">{{ block('coursecode') }} {% endblock %}
+{% block coursecode %} CIV1203{% endblock %}
+{% block courseName %} Bachelor of Science In Civil Engineering {% endblock %}
+{% block courseunit %}{{ block('coursecode') }}:Electrical Engineering{% endblock %}
+{% block lectureNotice %}
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Electrical_engineering/Lecture_notes/CIV 1203 Course Outline.pdf">{{ block('pdf_icon') }}CIV1203-Course Outline </a></i></b></li> 
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Electrical_engineering/Lecture_notes/CIV1203 Lecture 1.pdf">{{ block('pdf_icon') }}Lecture 1</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Electrical_engineering/Lecture_notes/CIV1203 Lecture 2.pdf">{{ block('pdf_icon') }}Lecture 2</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Electrical_engineering/Lecture_notes/CIV1203 Lecture 3.pdf">{{ block('pdf_icon') }}Lecture 3</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Electrical_engineering/Lecture_notes/CIV1203 Lecture 4.pdf">{{ block('pdf_icon') }}Lecture 4</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Electrical_engineering/Lecture_notes/CIV1203 Lecture 5.pdf">{{ block('pdf_icon') }}Lecture 5</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Electrical_engineering/Lecture_notes/CIV1203 Lecture 6.pdf">{{ block('pdf_icon') }}Lecture 6</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Electrical_engineering/Lecture_notes/CIV1203 Lecture 7.pdf">{{ block('pdf_icon') }}Lecture 7</a></i></b></li>
+<li class="lecture-notes"><b><i><a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Electrical_engineering/Lecture_notes/CIV1203 Lecture 8.pdf">{{ block('pdf_icon') }}Lecture 8</a></i></b></li>
+{% endblock lectureNotice %}
+
+{% block extra_lecture_notes %}{% endblock %}
+
+{% block ref_textbk_1_link %}
+<a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Electrical_engineering/Reference_books/Circuit_Analysis_Theory_And_Practice_by_robbins_and_miller.pdf">
+{% endblock %}
+{% block ref_textbk_1_title %}
+Circuit Analysis Theory And Practice by robbins and miller 
+{% endblock %}
+{% block ref_textbk_2_link %}
+<a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Electrical_engineering/Reference_books/Electric Circuits 4th Ed (NAHVI Mahmood 2003 McGraw-Hill).pdf">
+{% endblock %}
+{% block ref_textbk_2_title %}
+Electric Circuits 4th Ed (NAHVI Mahmood 2003 McGraw-Hill)
+{% endblock %}
+{% block ref_textbk_3_link %}
+<a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Electrical_engineering/Reference_books/Introductory Circuit Analysis 10E (Robert Boylestad).pdf">
+{% endblock %}
+{% block ref_textbk_3_title %}  
+Introductory Circuit Analysis 10E (Robert Boylestad)
+{% endblock %}
+{% block ref_textbk_4 %}{% endblock %}
+{% block ref_textbk_5 %}{% endblock %}
+{% block ref_textbk_6 %}{% endblock %}
+
+
+{% block youtube_links %}
+<li> <a href="#" >Torsion</a></li>
+<li><a href="#">Axial loading</a></li>
+<li><a href="#">Shearing stresses </a></li>
+<li><a href="#">Beams</a></li>
+<li><a href="#">Stress transformations</a></li>
+{% endblock youtube_links %}
+
+{% block papers_before_14 %}
+<li class="pastpaper"><b><i>{% block paper_1_2013_link %}<a href="http://localhost/pdf/muk/civil_eng/year1/sem2/Electrical_engineering/Past_papers/Electrical Engieering Past Papers.pdf">{% endblock %}Examination Questions</a></i></b></li>
+{% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/CIV1202" id="other_course_unit-linkbutton" class="link-item btn--pink">CIV1202-Fluid Mechanics{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/CIV1201" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">CIV1201-Strength of Mat. {% endblock courseunit_link_2 %}

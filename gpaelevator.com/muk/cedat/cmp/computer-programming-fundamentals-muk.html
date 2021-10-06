@@ -1,0 +1,36 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+
+{% block col_title %}
+Computer Programming Fundamentals
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/CMP1201">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %} CMP1201:COMPUTER PROGRAMMING FUNDAMENTALS{% endblock %}
+{% block coursecode %}CMP1201{% endblock %}
+{% block lectureNotice %}
+<li><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1201-programming/Lecture_notes/1&2- Overview&Intro.pdf">{{ block('pdf_icon') }}Lecture 1 & 2-Overview & Intro</a></i></b></li>
+<li><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1201-programming/Lecture_notes/3-Intro2Cprogs.pdf">{{ block('pdf_icon') }}Lecture 3-Introduction to Cprogs </a></i></b></li>
+<li><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1201-programming/Lecture_notes/4-ControlFlow-DecisionMaking.pdf">{{ block('pdf_icon') }}Lecture 4-ControlFlow & DecisionMaking </a></i></b></li>
+<li><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1201-programming/Lecture_notes/6-FunctionsArrays&Pointers.pdf">{{ block('pdf_icon') }}Lecture 5-Functions,Arrays & Pointers</a></i></b></li>
+<li><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1201-programming/Lecture_notes/7-Structures&Unions.pdf">{{ block('pdf_icon') }}Lecture 6-Structures & Unions </a></i></b></li>
+
+{% endblock %}
+{% block extra_lecture_notes %}{% endblock %}
+{% block ref_textbks %}
+<li><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1201-programming/Reference_books/The C Programming Language.pdf">{{ block('bk_icon') }}The C programming Language</a></i></b></li>
+<li><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1201-programming/Reference_books/cprogramming_tutorial.pdf">{{ block('bk_icon') }}C programming pdf</a></i></b></li>
+{% endblock %}
+
+{% block courseName %} Bachelor of Science In Computer, Electrical, Biomedical & Telecommunication engineering{% endblock %}
+
+
+
+{% block exam_list_2 %}
+<li class="department"><b><i><a href="http://localhost/pdf/muk/computer_eng/year1/sem2/CMP1201-programming/Lecture_notes/CMP1201-CAT1-2April2.pdf">CMP1201-Continous Assessment Test I</a></i></b></li>
+<li class="department"><b><i><a href="cmp1201-final_exam.html">CMP1201-Final Semester Exam</a></i></b></li>
+{% endblock exam_list_2 %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/CMP1202" id="other_course_unit-linkbutton" class="link-item btn--pink">CMP1202-Electronics II{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/CMP1203" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">CMP1203-Computer Arch. & Organization{% endblock courseunit_link_2 %}
+    

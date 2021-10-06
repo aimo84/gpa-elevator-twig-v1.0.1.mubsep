@@ -1,0 +1,15 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+CIV4102-Civil Engineering Infrastructure Maintainace
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/CIV4102">{{ block('coursecode') }} {% endblock %}
+{% block courseunit %} {{ block('coursecode') }}:Civil Engineering Infrastructure Maintainace{% endblock %}
+{% block coursecode %}CIV4102{% endblock %}
+{% block courseName %} Bachelor Of Science In Civil Engineering  {% endblock %}
+
+{% block ref_textbks %} {% endblock %}
+
+{% block courseunit_link_1 %} <a href="http://localhost/cedat/CIV4103" id="other_course_unit-linkbutton" class="link-item btn--pink">CIV4103-Traffic and Transportation Eng.{% endblock courseunit_link_1 %}
+{% block courseunit_link_2 %} <a href="http://localhost/cedat/CIV4104" class="link-item btn--lightgreen" id="other_course_unit-linkbutton">CIV4104-Public Health Engineering II{% endblock courseunit_link_2 %}

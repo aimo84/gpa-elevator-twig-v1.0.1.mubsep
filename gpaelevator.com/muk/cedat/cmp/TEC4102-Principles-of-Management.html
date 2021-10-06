@@ -1,0 +1,19 @@
+{% extends "gpa_elevator/templates/courseunit-template.php" %}
+
+{% block col_title %}
+TEC4102-Principles of Management
+{% endblock %}
+
+{% block courseunit %} {{ block('coursecode') }}:Principles of Management{% endblock %}
+{% block coursecode %}TEC4102{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/cedat/index">Cedat{% endblock %}
+{% block Course_unit_name %}<a href="http://localhost/cedat/TEC4102">{{ block('coursecode') }} {% endblock %}
+{% block courseName %} Bachelor of Science In Computer Engineering{% endblock %}
+{% block ref_textbks %} {% endblock %}
+
+
+
+{% block courseunit_link_1 %}<a href="TEC4101" id="other_course_unit-linkbutton" class="link-item btn--pink">TEC4101- Research Methods {% endblock courseunit_link_1 %} 
+{% block courseunit_link_2 %}<a href="CMP4102" id="other_course_unit-linkbutton" class="link-item btn--lightgreen">CMP4102-Instrumention and Control Engineering{% endblock %} 
+            
+
