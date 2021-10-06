@@ -1,0 +1,24 @@
+[07-Dec-2019 10:49:58 Europe/Berlin]  Uncaught exception: 'Exception'with Message: 'No route matched'
+Stack trace: <pre>#0 C:\xampp\htdocs\frameWork\public\index.php(78): Core\Router->dispatch('products')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\frameWork\Core\Router.php'on line61
+[07-Dec-2019 10:49:58 Europe/Berlin]  Uncaught exception: 'Exception'with Message: 'No route matched'
+Stack trace: <pre>#0 C:\xampp\htdocs\frameWork\public\index.php(78): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\frameWork\Core\Router.php'on line61
+[07-Dec-2019 10:49:58 Europe/Berlin]  Uncaught exception: 'Exception'with Message: 'No route matched'
+Stack trace: <pre>#0 C:\xampp\htdocs\frameWork\public\index.php(78): Core\Router->dispatch('products')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\frameWork\Core\Router.php'on line61
+[07-Dec-2019 10:49:58 Europe/Berlin]  Uncaught exception: 'Exception'with Message: 'No route matched'
+Stack trace: <pre>#0 C:\xampp\htdocs\frameWork\public\index.php(78): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\frameWork\Core\Router.php'on line61
+[07-Dec-2019 10:56:47 Europe/Berlin]  Uncaught exception: 'Exception'with Message: 'No route matched'
+Stack trace: <pre>#0 C:\xampp\htdocs\frameWork\public\index.php(78): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\frameWork\Core\Router.php'on line61
+[07-Dec-2019 10:57:27 Europe/Berlin]  Uncaught exception: 'Exception'with Message: 'No route matched'
+Stack trace: <pre>#0 C:\xampp\htdocs\frameWork\public\index.php(78): Core\Router->dispatch('products')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\frameWork\Core\Router.php'on line61
