@@ -1,0 +1,27 @@
+
+
+
+<form action="http://localhost/login/login" method="post">
+
+<div id = "field">
+<label for="username">username</label>
+<input type="text" name="username" id="username" autocomplete="off">
+
+</div>
+
+
+
+<div id="field">
+<label for="password">Password</label>
+<input type="password" name="password" id="password">
+
+<div> 
+<label for="remember">
+<input type="checkbox" name="remember" id="remember">Remember Me
+</label>
+</div>
+
+</div>
+<input type="submit" value="login in">
+<input type="hidden" name="token" value="{{ token }}">
+</form>

@@ -1,0 +1,26 @@
+
+
+<form action="http://localhost/register/register" method ="post">
+<div id="field">
+<label for="username">username</label>
+<input type="text" name ="username" id="username" autocomplete="off" value="">
+</div>
+
+<div id="field">
+<label for="password">enter password</label>
+<input type="password" name =" password" id="password"  value="">
+</div>
+
+<div id="field">
+<label for="password_again">password_again</label>
+<input type="password" name ="password_again" id="password_again"  value="" autocomplete="off">
+</div>
+     
+<input type="hidden" name="token" value="{{ token }}">
+
+<div id="field">
+<label for="name">name</label>
+<input type="text" name ="name" id="name" autocomplete="off" >
+</div>
+<input type="submit" value="register ">
+</form>
