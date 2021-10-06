@@ -1,0 +1,407 @@
+{% extends "gpa_elevator/templates/college-template.php" %}
+
+
+{% block col_title %}
+School of Law
+{% endblock %}
+{% block nav_col_name %}<a href="http://localhost/nkumba/sch_of_law">{{ block('col_title') }}{% endblock %}
+{% block nav_Courseunit %} {% endblock %}
+{% block uni_title %}Nkumba{% endblock %}
+
+{% block university_name %}NKUMBA UNIVERSITY {% endblock %}
+
+{% block col_name %} SCHOOL OF LAW {% endblock %}
+
+{% block sch1_title_box %}{% endblock %}
+{% block sch1_title %} COURSES {% endblock %}
+
+{% block dept1_name %} Bachelor of Laws (LLB){% endblock %}
+{% block dept2_name %} Bachelor of Criminal Justice (BCJ) {% endblock %}
+{% block dept3_name %} Diploma in Criminal Justice (DCJ){% endblock %}
+
+{% block faculty_course_1 %}
+<div class="dept-courses">
+    <ul class="courses">
+        {% block dept_1_course_list_1 %}
+         <li>
+                <ul  id="dept_1_course1">
+                  {% block dept_1_course_1_year_1 %}
+                  <li class="std-yr"><b><i>YEAR ONE</i></b>
+                        <ul>
+                          <li>
+                        <strong><b class="sem"><i>SEMESTER ONE</i></b></strong>
+                        <ul>
+                          {% block dept_1_course_1_courseunit_list_1 %}
+                          <li class="course_units"><b><i><a  href="EMT1101.html">EMT1101-Engineering Math I</a></i></b></li>
+                          <li class="course_units"><b><i><a href="CMP1101-electronics1.html"> CMP1101-Electronics I</a></i></b></li>
+                          <li class="course_units"><b><i><a  href="ethics.html">CMP1102-Computer Engineering Ethics</a></i></b></li>
+                          <li class="course_units"><b><i><a  href="CMP1103-ict.html">CMP1103-Information & Communication Technology</a></i></b></li>
+                          <li class="course_units"><b><i><a href="communication skills.html">UNI1001-Communication Skills </a></i></b></li>
+                          {% endblock %}
+                        </ul>
+                      </li>
+                  <li>
+                      <b class="sem"><i>SEMESTER TWO</i></b>
+                      <ul>
+                        {% block dept_1_course_1_courseunit_list_2 %}
+                         <li class="course_units"><b><i><a  href="EMT1201.html">EMT1201-Engineering Math II</a></i></b></li>
+                         <li class="course_units"><b><i><a  href = "computer programming fundamentals-muk.html">CMP1201-Computer Programming Fundamentals</a></i></b></li>
+                         <li class="course_units"><b><i><a  href="CMP1202-electronics2.html">CMP1202-Electronics II</a></i></b></li>
+                         <li class="course_units"><b><i><a  href="CMP1203-Computer-architecure&organisation.html">CMP1203-Computer Architecture & Organization</a></i></b></li>
+                         <li class="course_units"><b><i><a  href="ELE1202-electricity&magnetism.html">ELE1202-Electricity & Magnetism </a></i></b></li>
+                      {% endblock %}
+                        </ul>
+                    </li>
+                    </ul>
+                  </li>
+                  {% endblock dept_1_course_1_year_1 %}
+
+                  {% block dept_1_course_1_year_2 %}
+                  <li class="std-yr"><b><i>YEAR TWO</i></b>
+            <ul>
+                <li>
+                    <b class="sem"><i>SEMESTER ONE</i></b>
+                      <ul>
+                        {% block dept_1_course_1_courseunit_list_3 %}
+                        <li class="course_units"><b><i><a  href="#">EMT2101-Engineering Math III</a></i></b></li>
+                        <li class="course_units"><b><i><a  href="software-engineering.html">CMP2101-Software Engineering</a></i></b></li>
+                        <li class="course_units"><b><i><a  href="CMP2102-electric _circuits_and_signals.html">CMP2102-Electric Circuits and Signals</a></i></b></li>
+                        <li class="course_units"><b><i><a  href="CMP2103-OOP.html">CMP2103-Object Oriented Programming</a></i></b></li>
+                        <li class="course_units"><b><i><a  href="socialogy-for-technology.html">TEC2101-Sociology For Technology</a></i></b></li>
+                      {% endblock %}
+                      </ul>
+                </li>
+                  <li>
+                    <b class="sem"><i>SEMESTER TWO</i></b>
+                      <ul>
+                      {% block dept_1_course_1_courseunit_list_4 %}
+                       <li class="course_units"><b><i><a  href="#">CMP2201-Discrete Mathematics and Random Processes</a></i></b></li>
+                       <li class="course_units"><b><i><a  href="#">CMP2202-Analysis and Design Of Algorithms</a></i></b></li>
+                       <li class="course_units"><b><i><a  href="#">CMP2203-Digital Logic</a></i></b></li>
+                       <li class="course_units"><b><i><a  href="#">CMP2204-Operating Systems Technologies</a></i></b></li>
+                       <li class="course_units"><b><i><a  href="#">CMP2205-Computer Networks</a></i></b></li>
+                      {% endblock %}
+                      </ul>
+                  </li>
+            </ul>
+                  </li>
+                  {% endblock dept_1_course_1_year_2 %}
+
+                  {% block dept_1_course_1_year_3 %}
+                  <li class="std-yr"><b><i>YEAR THREE</i></b>
+            <ul>
+              <li>
+                <b class="sem"><i>SEMESTER ONE</i></b>
+                    <ul>
+                      {% block dept_1_course_1_courseunit_list_5 %}
+                      <li class="course_units"><b><i><a href="#">CMP3101-Database Systems</a></i></b></li>
+                      <li class="course_units"><b><i><a href="#">CMP3104-Computer Based Medical Systems</a></i></b></li>
+                      <li class="course_units"><b><i><a href="#">ELE3101-Electro Magnetic Fields</a></i></b></li>
+                      <li class="course_units"><b><i><a href="#">ELE3102-Applied Analouge Electronics</a></i></b></li>
+                      <li class="course_units"><b><i><a href="#">EMT3105-Engineering Mathematics V</a></i></b></li>
+                      {% endblock %}
+                    </ul>
+              </li>
+              <li>
+                  <b class="sem"><i>SEMESTER TWO</i></b>
+                    <ul>
+                    {% block dept_1_course_1_courseunit_list_6 %}
+                      <li class="course_units"><b><i><a href="#">CMP3201-Embedded Systems</a></i></b></li>
+                      <li class="course_units"><b><i><a href="#">CMP3202-Human Computer Interaction</a></i></b></li>
+                      <li class="course_units"><b><i><a href="#">CMP3203-Computer Systems Maintenance</a></i></b></li>
+                      <li class="course_units"><b><i><a href="#">CMP3204-Distributed Information Systems</a></i></b></li>
+                      <li class="course_units"><b><i><a href="#">CMP3205-Intelligent Systems </a></i></b></li>
+                      <li class="course_units"><b><i><a href="#">CMP3206-Saftey Critical System </a></i></b></li>
+                      <li class="course_units"><b><i><a href="#">CMP3207-Sustainable Energy Systems </a></i></b></li>
+                    {% endblock %}
+                    </ul>
+             </li>
+          </ul>
+                  </li>
+                  {% endblock dept_1_course_1_year_3 %}
+                  {% block dept_1_course_1_year_4 %}
+                  <li class="std-yr"><b><i>YEAR FOUR</i></b>
+                    <ul>
+                      <li>
+                        <b class="sem"><i>SEMESTER ONE</i></b>
+                            <ul>
+                            {% block dept_1_course_1_courseunit_list_7 %}
+                              <li class="course_units"><b><i><a href="#">CMP4101-Digital Signal Processing</a></i></b></li>
+                              <li class="course_units"><b><i><a href="#">CMP4102-Instrumention and Control Engineering</a></i></b></li>
+                              <li class="course_units"><b><i><a href="#">CMP4103-Computer Systems and Network Security</a></i></b></li>
+                              <li class="course_units"><b><i><a href="#">CMP4104-Digital Image and Video Processing</a></i></b></li>
+                              <li class="course_units"><b><i><a href="#">TEC4101-Research Methods </a></i></b></li>
+                              <li class="course_units"><b><i><a href="#">TEC4102-Principles of Management </a></i></b></li>
+                            {% endblock %}
+                            </ul>
+                      </li>
+                      <li>
+                          <b class="sem"><i>SEMESTER TWO</i></b>
+                            <ul>
+                            {% block dept_1_course_1_courseunit_list_8 %}
+                              <li class="course_units"><b><i><a href="#">CMP4201-Research Project</a></i></b></li>
+                              <li class="course_units"><b><i><a href="#">CMP4202-VLSI Systems Design</a></i></b></li>
+                              <li class="course_units"><b><i><a href="#">CMP4204-Wireless Technologies</a></i></b></li>
+                              <li class="course_units"><b><i><a href="#">CMP4205-Audio and Speech Signal Processing</a></i></b></li>
+                              <li class="course_units"><b><i><a href="#">ELE4201-Project </a></i></b></li>
+                              <li class="course_units"><b><i><a href="#">TEC4201-Entrepreneurship </a></i></b></li>
+                            {% endblock %}
+                            </ul>
+                     </li>
+                  </ul>
+                  </li>
+                  {% endblock dept_1_course_1_year_4 %}
+                </ul>
+         </li>
+      {% endblock %}
+      {% block dept_1_course_list_2 %} {% endblock %}
+      {% block dept_1_course_list_3 %} {% endblock %}
+      {% block dept_1_course_list_4 %} {% endblock %}
+    </ul>
+</div>
+{% endblock %}
+
+{% block faculty_course_2 %}
+<ul class="courses">
+{% block dept_2_course_list_1 %} 
+<li>  
+      <ul id="dept_2_course1">
+            {% block dept_2_course_1_year_1 %}
+            <li class="std-yr"><b><i>YEAR ONE</i></b>
+                  <ul>
+                    <li>
+                  <strong><b class="sem"><i>SEMESTER ONE</i></b></strong>
+                  <ul>
+                    {% block dept_2_course_1_courseunit_list_1 %}
+                    <li class="course_units"><b><i><a  href="EMT1101.html">EMT1101-Engineering Math I</a></i></b></li>
+                    <li class="course_units"><b><i><a  href="#">CIV1101-Engineering Drawing	</a></i></b></li>
+                    <li class="course_units"><b><i><a  href="#">CIV1102-Introduction to Civil Engineering	</a></i></b></li>
+                    <li class="course_units"><b><i><a  href="CMP1103-ict.html">EMT1104-Information and Communication Technology I	</a></i></b></li>
+                    <li class="course_units"><b><i><a  href="communication skills.html">TEC1101-Communication Skills for Technology	</a></i></b></li>
+                    <li class="course_units"><b><i><a  href="#">CIV1103-Statics and Dynamics for Civil Engineers</a></i></b></li>
+                    {% endblock %}
+                  </ul>
+                </li>
+            <li>
+                <b class="sem"><i>SEMESTER TWO</i></b>
+                <ul>
+                  {% block dept_2_course_1_courseunit_list_2 %}
+                  <li class="course_units"><b><i><a  href="EMT1201.html">EMT1201-Engineering Math II</a></i></b></li>
+                  <li class="course_units"><b><i><a  href = "#">CIV1201-Strength of Materials	</a></i></b></li>
+                  <li class="course_units"><b><i><a  href="#">CIV1202-Fluid Mechanics</a></i></b></li>
+                  <li class="course_units"><b><i><a  href="#">CIV1203-Electrical Engineering	</a></i></b></li>
+                  <li class="course_units"><b><i><a  href="CMP1103-ict.html">EMT1202-Information and Communication Technology II	</a></i></b></li>
+                  <li class="course_units"><b><i><a  href="#">TEC1301-Workshop Practice</a></i></b></li>
+                {% endblock %}
+                  </ul>
+              </li>
+              </ul>
+            </li>
+            {% endblock dept_2_course_1_year_1 %}
+
+            {% block dept_2_course_1_year_2 %}
+            <li class="std-yr"><b><i>YEAR TWO</i></b>
+      <ul>
+          <li>
+              <b class="sem"><i>SEMESTER ONE</i></b>
+                <ul>
+                  {% block dept_2_course_1_courseunit_list_3 %}
+                  <li class="course_units"><b><i><a  href="#">EMT2101-Engineering Mathematics III	</a></i></b></li>
+                  <li class="course_units"><b><i><a  href="#">CIV2102-Engineering Geology	</a></i></b></li>
+                  <li class="course_units"><b><i><a  href="#">CIV2103-Engineering Surveying I	</a></i></b></li>
+                  <li class="course_units"><b><i><a  href="#">CIV2104-Hydraulics		</a></i></b></li>
+                  <li class="course_units"><b><i><a  href="#">TEC2101-Sociology For Technology</a></i></b></li>
+                  <li class="course_units"><b><i><a  href="#">CIV2105-Thermodynamics for Civil engineers (elective)	</a></i></b></li>
+                  <li class="course_units"><b><i><a  href="#">CIV2101-Theory of Structures I	</a></i></b></li>
+                {% endblock %}
+                </ul>
+          </li>
+            <li>
+              <b class="sem"><i>SEMESTER TWO</i></b>
+                <ul>
+                {% block dept_2_course_1_courseunit_list_4 %}
+                <li class="course_units"><b><i><a  href="#">EMT2201-Engineering Mathematics IV	</a></i></b></li>
+                <li class="course_units"><b><i><a  href="#">CIV2201-Soil Mechanics	</a></i></b></li>
+                <li class="course_units"><b><i><a  href="#">CIV2202-Theory of Structures II	</a></i></b></li>
+                <li class="course_units"><b><i><a  href="#">CIV2203-Civil Engineering Materials	</a></i></b></li>
+                <li class="course_units"><b><i><a  href="#">CIV2204-Engineering Surveying II	</a></i></b></li>
+                <li class="course_units"><b><i><a  href="#">CIV2205-Economics for Civil Engineering (elective)	</a></i></b></li>
+                {% endblock %}
+                </ul>
+            </li>
+      </ul>
+            </li>
+            {% endblock dept_2_course_1_year_2 %}
+
+            {% block dept_2_course_1_year_3 %}
+            <li class="std-yr"><b><i>YEAR THREE</i></b>
+      <ul>
+        <li>
+          <b class="sem"><i>SEMESTER ONE</i></b>
+              <ul>
+                {% block dept_2_course_1_courseunit_list_5 %}
+                <li class="course_units"><b><i><a href="#">CIV3101-Organisational Theory for Engineering	</a></i></b></li>
+                <li class="course_units"><b><i><a href="#">CIV3102-Design of Structures I (Concrete)	</a></i></b></li>
+                <li class="course_units"><b><i><a href="#">CIV3103-Highway Engineering	</a></i></b></li>
+                <li class="course_units"><b><i><a href="#">CIV3104-Hydrology I	</a></i></b></li>
+                <li class="course_units"><b><i><a href="#">CIV3105-Construction Technology	</a></i></b></li>
+                <li class="course_units"><b><i><a href="#">CIV3106-Environmental Chemistry (elective)	</a></i></b></li>
+                <li class="course_units"><b><i><a href="#">CIV3107-Principles of Quantity surveying (elective)	</a></i></b></li>
+                {% endblock %}
+              </ul>
+        </li>
+        <li>
+            <b class="sem"><i>SEMESTER TWO</i></b>
+              <ul>
+              {% block dept_2_course_1_courseunit_list_6 %}
+              <li class="course_units"><b><i><a href="#">CIV3201-Foundation Engineering	</a></i></b></li>
+              <li class="course_units"><b><i><a href="#">CIV3202-Group Design Project	</a></i></b></li>
+              <li class="course_units"><b><i><a href="#">CIV3203-Design of Structures II (Steel)	</a></i></b></li>
+              <li class="course_units"><b><i><a href="#">CIV3204-Water Resources Engineering I	</a></i></b></li>
+              <li class="course_units"><b><i><a href="#">CIV3205-Public Health Engineering I	</a></i></b></li>
+              {% endblock %}
+              </ul>
+       </li>
+    </ul>
+            </li>
+            {% endblock dept_2_course_1_year_3 %}
+            {% block dept_2_course_1_year_4 %}
+            <li class="std-yr"><b><i>YEAR FOUR</i></b>
+      <ul>
+        <li>
+          <b class="sem"><i>SEMESTER ONE</i></b>
+              <ul>
+              {% block dept_2_course_1_courseunit_list_7 %}
+              <li class="course_units"><b><i><a href="#">CIV4100-Civil Engineering Project I	</a></i></b></li>
+              <li class="course_units"><b><i><a href="#">CIV4101-Civil Engineering Management	</a></i></b></li>
+              <li class="course_units"><b><i><a href="#">CIV4102-Civil Engineering Infrastructure Maintenance	</a></i></b></li>
+              <li class="course_units"><b><i><a href="#">CIV4103-Traffic and Transportation Engineering	</a></i></b></li>
+              <li class="course_units"><b><i><a href="#">CIV4104-Public Health Engineering II	</a></i></b></li>
+              <li class="course_units"><b><i><a href="#">CIV4105-Design of Structures III (Timber and Masonry) (elective)	</a></i></b></li>
+              <li class="course_units"><b><i><a href="#">CIV4106-Hydrology II (elective)	</a></i></b></li>
+              {% endblock %}
+              </ul>
+        </li>
+        <li>
+            <b class="sem"><i>SEMESTER TWO</i></b>
+              <ul>
+              {% block dept_2_course_1_courseunit_list_8 %}
+              <li class="course_units"><b><i><a href="#">CIV4200-Civil Engineering Project II	</a></i></b></li>
+              <li class="course_units"><b><i><a href="#">CIV4201-Civil Engineering Law	</a></i></b></li>
+              <li class="course_units"><b><i><a href="#">CIV4202-Water Resources Engineering II (elective)	</a></i></b></li>
+              <li class="course_units"><b><i><a href="#">CIV4203-Civil Engineering Economy (elective)	</a></i></b></li>
+              <li class="course_units"><b><i><a href="#">CIV4204-Civil Engineering Environmental Quality Management (elective)	</a></i></b></li>
+              <li class="course_units"><b><i><a href="#">CIV4206-Introductory Dynamics of Structures (elective)	</a></i></b></li>
+              <li class="course_units"><b><i><a href="#">CIV4209-Human Resources Management and Entrepreneurship (elective)	</a></i></b></li>
+              {% endblock %}
+              </ul>
+       </li>
+    </ul>
+            </li>
+            {% endblock dept_2_course_1_year_4 %}
+    </ul>
+   </li>
+   {% block dept_2_course_list_2 %} {% endblock %}
+   {% block dept_2_course_list_3 %} {% endblock %}
+  {% block dept_2_course_list_4 %} {% endblock %}
+
+{% endblock %} 
+</ul>
+{% endblock %}
+
+{% block faculty_course_3 %}
+<ul class="courses">
+{% block dept_3_course_list_1 %}
+<li>   
+            <ul id="dept_3_course1">
+                  {% block dept_3_course_1_year_1 %}
+                  <li class="std-yr"><b><i>YEAR ONE</i></b>
+                        <ul>
+                          <li>
+                        <strong><b class="sem"><i>SEMESTER ONE</i></b></strong>
+                        <ul>
+                          {% block dept_3_course_1_courseunit_list_1 %}
+                          <li class="course_units"><b><i><a  href="EMT1101.html">EMT1101-Engineering Math I</a></i></b></li>
+                          <li class="course_units"><b><i><a  href="#">MEC1101-Engineering Drawing	</a></i></b></li>
+                          <li class="course_units"><b><i><a  href="#">MEC1102-Engineering Mechanics	</a></i></b></li>
+                          <li class="course_units"><b><i><a  href="CMP1103-ict.html">MEC1103-Electrical Engineering for Mechanical Engineers	</a></i></b></li>
+                          <li class="course_units"><b><i><a  href="communication skills.html">TEC1101-Communication Skills for Technology	</a></i></b></li>
+                          {% endblock %}
+                        </ul>
+                      </li>
+                  <li>
+                      <b class="sem"><i>SEMESTER TWO</i></b>
+                      <ul>
+                        {% block dept_3_course_1_courseunit_list_2 %}
+                        <li class="course_units"><b><i><a  href="EMT1201.html">EMT1201-Engineering Math II</a></i></b></li>
+                        <li class="course_units"><b><i><a  href = "#">EMT1204-Information Communication Technology	</a></i></b></li>
+                        <li class="course_units"><b><i><a  href="#">MEC1202-Engineering Mechanics II	</a></i></b></li>
+                        <li class="course_units"><b><i><a  href="#">MEC1203-Thermodynamics	</a></i></b></li>
+                        <li class="course_units"><b><i><a  href="#">MEC1204-Mechanics of Materials	</a></i></b></li>
+                      {% endblock %}
+                        </ul>
+                    </li>
+                    </ul>
+                  </li>
+                  {% endblock dept_3_course_1_year_1 %}
+
+                  {% block dept_3_course_1_year_2 %}
+                  <li class="std-yr"><b><i>YEAR TWO</i></b>
+            <ul>
+                <li>
+                    <b class="sem"><i>SEMESTER ONE</i></b>
+                      <ul>
+                        {% block dept_3_course_1_courseunit_list_3 %}
+                        <li class="course_units"><b><i><a  href="#">EMT2101-Engineering Mathematics III	</a></i></b></li>
+                        <li class="course_units"><b><i><a  href="#">MEC2101-Fluid Mechanics for Mechanical Engineers	</a></i></b></li>
+                        <li class="course_units"><b><i><a  href="#">MEC2102-Mechanics of Materials II	</a></i></b></li>
+                        <li class="course_units"><b><i><a  href="#">MEC2103-Computer Aided Design for Mechanical Engineers	</a></i></b></li>
+                        <li class="course_units"><b><i><a  href="#">TEC2101-Sociology for technologists	</a></i></b></li>
+                      {% endblock %}
+                      </ul>
+                </li>
+                  <li>
+                    <b class="sem"><i>SEMESTER TWO</i></b>
+                      <ul>
+                      {% block dept_3_course_1_courseunit_list_4 %}
+                      <li class="course_units"><b><i><a  href="#">MEC2201-Electrical Engineering II	</a></i></b></li>
+                      <li class="course_units"><b><i><a  href="#">MEC2202-Theory of Machine Elements	</a></i></b></li>
+                      <li class="course_units"><b><i><a  href="#">MEC2203-Computer Programming	</a></i></b></li>
+                      <li class="course_units"><b><i><a  href="#">MEC2204-Material Science and Engineering I	</a></i></b></li>
+                      <li class="course_units"><b><i><a  href="#">MEC2205-Fluid Mechanics II	</a></i></b></li>
+                      {% endblock %}
+                      </ul>
+                  </li>
+            </ul>
+                  </li>
+                  {% endblock dept_3_course_1_year_2 %}
+
+                  {% block dept_3_course_1_year_3 %}
+                  {% endblock dept_3_course_1_year_3 %}
+                  {% block dept_3_course_1_year_4 %}
+                  {% endblock dept_3_course_1_year_4 %}
+                </ul>
+</li>
+{% endblock %}
+{% block dept_3_course_list_2 %} {% endblock %}
+{% block dept_3_course_list_3 %} {% endblock %}
+{% block dept_3_course_list_4 %} {% endblock %}  
+
+    </ul>
+
+{% endblock %}
+
+{% block sch_1_dept_10 %}{% endblock %}
+{% block col_sch_2 %} {% endblock %}
+{% block col_sch_3 %} {% endblock %}
+{% block quick_link_img %}<img id="university_links-img" src="../../img/nkumba-logo.png" alt="Nkumba University Business School Logo">{% endblock %}
+
+{% block quick_links %} 
+<li class="link-item" id="link-item-first-child"><a href="index.html">Gpa Elevator Home Page</a></li>
+<li class="link-item"><a href="https://nkumbauniversity.ac.ug/" target="_blank">Nkumba University Website</a></li>
+<li class="link-item"><a href="https://student.mak.ac.ug/" target="_blank">Students Portal</a></li>
+<li class="link-item"><a href="https://www.mak.ac.ug/about-makerere/contact-information" target="_blank">University Location</a></li>
+<li class="link-item"><a href="https://muele.mak.ac.ug/" target="_blank">e-Learning</a></li>
+<li class="link-item"><a href="https://admissions.mak.ac.ug/" target="_blank">Admissions Portal</a></li>
+<li class="link-item"><a href="https://www.mak.ac.ug/admissions/fees-payment-and-funding" target="_blank">Scholarship</a></li>
+{% endblock %}  
