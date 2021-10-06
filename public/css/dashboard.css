@@ -1,0 +1,179 @@
+/*
+darkred=#f44336;
+
+
+
+*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#e0e8f5;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    padding:15px 30px;
+
+}
+nav li {
+    list-style: none;
+}
+
+
+
+.navbar{
+    background-color: white !important;
+    height: 80px !important;
+}
+
+.branding{
+    background-color: #00795f !important;
+    padding: 0 !important;
+    border-bottom: 2px solid orange;
+    width: 260px;
+    height:80px;
+    text-align: left;
+    margin:0 !important;
+    z-index: 2;
+    position: fixed;
+    top: 0px;
+    left:0;
+ 
+}
+.branding img{
+    height: 80px;
+    width:200px;
+    
+}
+
+.sidemenu{
+    background-color: aqua;
+    max-width:280px;
+    z-index: 2;
+    top: 80px;
+    box-shadow: none;
+    width: 260px;
+    height:100%;
+    
+    }
+    .nav-item-last{
+        padding-bottom: 20px;
+    }
+    .sidebar-wrapper .nav-item {
+        display: inline-block;
+        width:100%;
+        margin-bottom: 0px !important;
+        margin-top: 0px !important;
+    }
+    .logo{
+    background-color: #00795f !important;
+    padding: 0 !important;
+    border-bottom: 2px solid orange;
+    width: 260px;
+    height: 90px;
+    padding-top: 0 !important;
+    }
+    .dash_icons{
+        font-size:22px;
+        width:25px;
+        display: inline-block;
+        padding-right: 5px;
+    }
+
+   .btn-just-icon{
+        background-color: #4db6ac !important;
+    }
+    .dash_icons_search{
+        color:white;
+    }
+    .sidebar-wrapper ul li{
+    }
+    .sidebar-wrapper ul li :hover{
+        background-color:#4db6ac !important;
+        color: #fff !important;
+        box-shadow: 0 4px 18px 0 rgba(0,0,0,.2), 0 7px 10px -5px rgba(0,0,0,.5) !important;
+        
+    }
+    .sidebar-wrapper ul li :hover > .dash_icons{
+        color: orange !important;
+    }
+    .card-icon-img{
+     border-radius: 50% !important;
+     float: left;
+     height: 100px;
+    }
+    .dropdown-item  a .pull-right  {
+        text-align: right !important;
+        float:right !important;
+    }
+    .side_setting_customization{   
+    position: absolute !important;
+    bottom: 0px !important;
+    left:575px !important;
+    background: none !important;
+    }
+
+    .fa-cog {
+        color:#000 !important;
+
+    }
+.navbar-fixed-top{
+    position: fixed !important;
+    left:260px !important;
+    margin-left: 0;
+    padding-left: 50px !important;
+}
+.fav-icon{
+    width: 80px;
+}
+.navbar-wrapper a{
+    margin:0 !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.page-title:hover{
+    color:red;
+}
+.img_box{
+    background: none !important ;
+}
+.student_imgs{
+    width:100%;
+}
+.hidden-icons{
+    margin-left: 0px !important;
+    display: none !important;
+    position: relative;
+    top:-40px;
+    
+}
+.hidden-options{
+    width:100% !important;
+    background: linear-gradient(60deg,#ffa726,#fb8c00);
+    color:white;
+    border-radius: 10%;
+    padding:10px;
+
+}
+.img_box:hover > .hidden-icons{
+    display: inline-flex !important;
+    transition: all 1s ease-in;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

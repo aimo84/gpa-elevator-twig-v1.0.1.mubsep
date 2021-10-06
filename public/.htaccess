@@ -1,0 +1,20 @@
+# Remove inedex.php from the request but maintain the query string
+RewriteEngine On
+
+#change css files
+RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)\.(gif|jpg|png|jpeg|css|js|swf|pdf)$ /public/$1.$2 [L,NC]
+
+#RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?$1 [L,QSA]
+
+
+<FilesMatch "\.(gz|pdf|zip|rar)$" >
+    Order allow,deny
+    Allow from all
+    Satisfy any
+</FilesMatch>
